@@ -1,0 +1,1207 @@
+{
+    "Polytech Nantes": [
+        {
+            "formation": "ingenieur-electronique-et-technologies-numeriques",
+            "competences": [
+                "Concevoir et réaliser des systèmes mettant en oeuvre des circuits électroniques, de l’informatique embarquée, des technologies réseaux et de transmission sans fil, des composants multimédia et du traitement du signal.",
+                "Concevoir les architectures matérielles et logicielles des systèmes numériques sous des contraintes de temps réel, de consommation énergétique, de fiabilité, de sécurité...",
+                "Savoir gérer des équipes et des projets en prenant en compte des contraintes socio-économiques dont celles du développement durable."
+            ],
+            "metiers": [
+                "Ingénieur en électronique embarquée",
+                "Ingénieur de conception radiofréquence",
+                "Ingénieur développement informatique ou temps-réel embarqué",
+                "Ingénieur en traitement du signal",
+                "Ingénieur en électronique numérique."
+            ],
+            "secteurs": [
+                "Électronique professionnelle et grand public",
+                "Transports (automobile, aéronautique, naval)",
+                "Industries et services de l'information et de la communication",
+                "Défense, sécurité",
+                "Santé",
+                "Domotique"
+            ],
+            "url": "https://polytech.univ-nantes.fr/fr/les-formations/cycle-ingenieur/ingenieur-electronique-et-technologies-numeriques"
+        },
+        {
+            "formation": "ingenieur-thermique-energetique-et-mecanique",
+            "competences": [
+                "Concevoir, optimiser des systèmes, des procédés ou des installations industrielles où les conversions d'énergie et les transferts de chaleur jouent un rôle majeur.",
+                "Concevoir et dimensionner des nouveaux équipements pour obtenir une efficacité énergétique maximale.",
+                "Mettre en oeuvre des méthodes et des outils de simulation numérique pour appréhender les problèmes de pointe.",
+                "Gérer des projets en intégrant les dimensions commerciales et réglementaires, en tenant compte des contraintes environnementales et sociales."
+            ],
+            "metiers": [
+                "Ingénieur d’études (ou calcul)",
+                "Ingénieur d’intégration, essais, tests",
+                "Ingénieur R&D",
+                "Ingénieur conseil",
+                "Ingénieur d'affaires"
+            ],
+            "secteurs": [
+                "Solutions d'économie d'énergie",
+                "Sobriété énergétique",
+                "Efficacité énergétique des systèmes et des bâtiments",
+                "Conception d'installations fluides",
+                "Optimisation thermique des procédés industriels",
+                "Valorisation énergétique",
+                "Décarbonation",
+                "Audit énergétique"
+            ],
+            "url": "https://polytech.univ-nantes.fr/fr/les-formations/cycle-ingenieur/ingenieur-thermique-energetique-et-mecanique"
+        },
+        {
+            "formation": "ingenieur-materiaux",
+            "competences": [
+                "Concevoir, mettre en oeuvre, caractériser, modéliser et contrôler les différents aspects du cycle de vie des matériaux : ressources, procédés de fabrication et/ou d’assemblage, propriétés, applications, performances en service, durabilité, recyclage.",
+                "Considérer les caractéristiques scientifiques et techniques des matériaux, des applications et des procédés associés (phénomènes chimiques, physiques ou mécaniques)."
+            ],
+            "metiers": [
+                "Ingénieur études - recherche - développement - innovation",
+                "Ingénieur de production - fabrication",
+                "Ingénieur méthodes - industrialisation",
+                "Ingénieur contrôle - qualité - inspection"
+            ],
+            "secteurs": [
+                "Énergies (nucléaire, éolien, photovoltaïques, hydrogène, batteries...)",
+                "Transports et défence (aéronautique, spatial, automobile, naval et ferroviaire)",
+                "Production et transformation des matériaux (métallurgie, plasturgie, composites, matériaux bio-sourcés...)",
+                "Autres (biomédical, microélectronique, équipements sportifs...)"
+            ],
+            "url": "https://polytech.univ-nantes.fr/fr/les-formations/cycle-ingenieur/ingenieur-materiaux"
+        },
+        {
+            "formation": "ingenieur-informatique",
+            "competences": [
+                "plateforme scalable de diffusion de vidéos sur le web (H265/VP9)",
+                "nouveau système d’information pour un Fablab",
+                "application mobile multi-plateformes pour un service d'un CHU",
+                "prototypage de self-service data analytics pour la grande distribution",
+                "vêtement connecté à reconnaissance de geste (projet mixte ingénieurs INFO/ETN)",
+                "moteur de recherche à facettes pour des documents anciens et multimédia",
+                "tableaux de bords pour l’analyse d’usages de masses de données d’interactive d’enseignement en ligne",
+                "outil d’analyse prédictive pour un système de production énergétique biomasse",
+                "prototypage de certificats pour la sécurité d’un système d’information",
+                "application mobile pour livraison postale sur adresse virtuelle"
+            ],
+            "metiers": [
+                "Analyse d'image médicale (embryonnaire) par le deep learning (collaboration laboratoire-CHU)",
+                "Détection en cancérologie par le deep learning (collaboration laboratoire-Keosys)",
+                "Interprétation des compétences et besoins en emploi par deep learning (collaboration laboratoire-ANPE)",
+                "Optimisation de la fiabilité des processus de fabrication de l'usine du futur par réseaux bayesiens (collaboration laboratoire-IRT Jules Verne)",
+                "Réseaux cognitifs pour l'usine du futur (collaboration inter-laboratoires LS2N-IETR)",
+                "Reconnaissance automatique d'écriture manuscrite par deep learning (collaboration laboratoire-MyScript)",
+                "Analyse de performance d'un champ d'éoliennes (collaboration laboratoire-ENGIE)"
+            ],
+            "secteurs": [
+                "entreprises de service numérique (ESN), qui conseillent et assurent conception et réalisation techniques de projets informatiques pour d'autres entreprises (généralement hors secteur informatique) ou services publics. Parmi ces sociétés de services figurent à la fois de grands groupes internationaux, particulièrement bien implantés sur le territoire nantais, et des sociétés plus petites et souvent spécialisées dans des compétences (web, e-commerce, open source, etc.).",
+                "grands groupes des divers secteurs d'activités indiqués plus haut et services publics. ",
+                "PME et start-up (plusieurs diplômés sont aussi créateurs d'entreprise), souvent liées au web et s'appliquant à des secteurs très variés."
+            ],
+            "url": "https://polytech.univ-nantes.fr/fr/les-formations/cycle-ingenieur/ingenieur-informatique"
+        },
+        {
+            "formation": "ingenieur-genie-civil",
+            "competences": [
+                "Concevoir et dimensionner des ouvrages en béton armé, en acier ou en bois.",
+                "Maîtrise d’oeuvre (du permis de construire à la construction de l’ouvrage) : guide du maître d’ouvrage dans le choix des matériaux et des systèmes à mettre en oeuvre.",
+                "Élaborer des ouvrages fonctionnels, durables et économes en énergie.",
+                "Gérer l’exécution des travaux, assurer la gestion financière et le management des équipes."
+            ],
+            "metiers": [
+                [
+                    "Ingénieur méthodes et travaux",
+                    "Ingénieur études (structure, thermique)",
+                    "Ingénieur chargé d'affaires",
+                    "Ingénieur économie de la construction",
+                    "Contrôleur technique",
+                    "Chef de projet"
+                ]
+            ],
+            "secteurs": [
+                [
+                    "Bâtiment (construction neuve et réhabilitation)",
+                    "Génie urbain et Travaux publics (aménagement urbains, routes, réseaux...)",
+                    "Génie civil",
+                    "Maintenance et gestion de patrimoine",
+                    "Montage d'opérations",
+                    "Conception, réhabilitation et exploitation",
+                    "Recherche & Développement"
+                ]
+            ],
+            "url": "https://polytech.univ-nantes.fr/fr/les-formations/cycle-ingenieur/ingenieur-genie-civil"
+        },
+        {
+            "formation": "ingenieur-genie-des-procedes-et-bioprocedes",
+            "competences": [
+                "Maîtriser les domaines liés à la transformation de la matière en produits finis à fonction d’usage, en prenant en compte la dépense énergétique et en respectant les contraintes environnementales.",
+                "Concevoir, innover, réaliser, dimensionner et exploiter des procédés et des bioprocédés dans des domaines industriels variés.",
+                "Gérer et mener des projets en relation avec des partenaires internes et externes, veiller à la qualité des (bio)productions et garantir des réalisations performantes."
+            ],
+            "metiers": [
+                [
+                    "Ingénieur R&D",
+                    "Ingénieur de production, exploitation, qualité - sécurité - environnement",
+                    "Ingénieur d'études - conseils techniques",
+                    "Ingénieur d'affaires"
+                ]
+            ],
+            "secteurs": [
+                [
+                    "Pharmacie industrielle, chimie",
+                    "Agroalimentaire",
+                    "Protection de l'environnement, traitement des effluents",
+                    "Valorisation des biomasses",
+                    "Bureau d'études, équipementiers, conseil"
+                ]
+            ],
+            "url": "https://polytech.univ-nantes.fr/fr/les-formations/cycle-ingenieur/ingenieur-genie-des-procedes-et-bioprocedes"
+        },
+        {
+            "formation": "ingenieur-genie-electrique",
+            "competences": [
+                "Assurer la gestion et la maîtrise de l’énergie électrique, de sa production à son exploitation en intégrant les énergies renouvelables.",
+                "Concevoir et réaliser l’intégration des systèmes et des installations électriques en exploitant les technologies innovantes à haut rendement.",
+                "Élaborer et mettre en oeuvre des solutions optimisées en matière de pilotage des systèmes électriques, mécaniques et thermiques."
+            ],
+            "metiers": [
+                [
+                    "Ingénieur R&D",
+                    "Ingénieur de production",
+                    "Ingénieur d'affaires",
+                    "Ingénieur de maintenance"
+                ]
+            ],
+            "secteurs": [
+                [
+                    "Énergies",
+                    "Systèmes électroniques",
+                    "Installations électriques",
+                    "Transports (automobile, ferroviaire, aéronautique, naval)",
+                    "Contrôle commande",
+                    "Construction électrique"
+                ]
+            ],
+            "url": "https://polytech.univ-nantes.fr/fr/les-formations/cycle-ingenieur/ingenieur-genie-electrique"
+        }
+    ],
+    "Polytech Montpellier": [
+        {
+            "formation": "genie-biologique-et-agroalimentaire",
+            "competences": [
+                "maîtriser l'élaboration (formulation et procédé) et la caractérisation de produits biologiques et alimentaires",
+                "innover et industrialiser par la conception et le développement de nouveaux produits ou procédés, dans le respect de la réglementation et de l’environnement",
+                "conduire et optimiser tout procédé lié à l'industrie alimentaire et biologique",
+                "garantir la qualité sanitaire, nutritionnelle et organoleptique d'un produit biologique et alimentaire",
+                "travailler avec d'autres secteurs d'activités (marketing, packaging, équipementier, maintenance…)",
+                "organiser, optimiser et piloter la production et les flux industriels, les équipements et les ressources humaines",
+                "Intégrer les enjeux de la transition écologique dans l’ensemble de ses missions."
+            ],
+            "metiers": [
+                "Ingénieur recherche et développement (R&D)",
+                "Ingénieur responsable de production",
+                "Ingénieur qualité-sécurité-environnement (QSE)",
+                "Ingénieur commercial et technique",
+                "Ingénieur supply chain",
+                "Ingénieur marketing"
+            ],
+            "secteurs": [
+                "secteur agroalimentaire,",
+                "secteur pharmaceutique et cosmétique,",
+                "ainsi que tous les secteurs évaluant les risques (Hygiène, Sécurité, Environnement) en lien étroit avec le développement durable."
+            ],
+            "url": "https://www.polytech.umontpellier.fr/formation/cycle-ingenieur/genie-biologique-et-agroalimentaire/debouches-professionnels"
+        },
+        {
+            "formation": "informatique-et-gestion",
+            "competences": [
+                "A acquis des bases scientifiques solides en informatique (notamment dans le développement web et mobile), mathématiques de la décision, statistiques, gestion des données (big data et intelligence artificielle), méthodologie de gestion de projet ;",
+                "Possède une bonne connaissance des métiers et des problématiques de gestion de l’entreprise ;",
+                "Est capable de mener un projet informatique depuis sa conception jusqu’à sa mise en production ;",
+                "Est sensibilisé au management d’équipe, aux enjeux de développement durable et responsabilité sociétale, ainsi qu’à la création d’entreprise."
+            ],
+            "metiers": [
+                "Concepteur-développeur web et mobile",
+                "Consultant en systèmes d’information",
+                "Chef de projet informatique (méthodes classiques ou agiles)",
+                "Expert de bases de données (data analyst, data scientist)",
+                "Auditeur des systèmes d’information",
+                "Ingénieur R&D",
+                "Créateur d'entreprise"
+            ],
+            "secteurs": [
+                "Sociétés de services en ingénierie informatique (SSII)",
+                "Entreprise de services du numérique (ESN)",
+                "Directions des systèmes d’information (grandes entreprises)",
+                "Start-ups en informatique",
+                "Organismes de la fonction publique et collectivités territoriales",
+                "Banque et assurance",
+                "Editeurs de logiciels",
+                "Audit et conseil",
+                "Télécommunications et e-services"
+            ],
+            "url": "https://www.polytech.umontpellier.fr/formation/cycle-ingenieur/informatique-et-gestion/debouches-professionnels"
+        },
+        {
+            "formation": "materiaux",
+            "competences": [
+                "a acquis des bases scientifiques solides en chimie, physique et mécanique ;",
+                "possède une bonne connaissance des technologies propres aux différentes classes de matériaux (polymères, verres, céramiques, métaux...) ;",
+                "est capable de gérer les aspects techniques, humains et économiques d’un projet ou d’une activité dans le domaine des matériaux de grande diffusion ou à haute valeur ajoutée ;",
+                "est attentif aux problématiques de durabilité, de recyclage et d’écoconception ;",
+                "possède une vision globale de l’entreprise lui permettant de s’adapter, d’évoluer à long terme et d’accompagner son évolution dans un contexte mondialisé ;",
+                "sait intégrer les contraintes et réalités liées à la culture d'entreprise (économie, normes, réglementation...)."
+            ],
+            "metiers": [
+                "Recherche et développement",
+                "Conception",
+                "Essais et études",
+                "Qualité et normalisation",
+                "Production",
+                "Expertise et conseil technique",
+                "Maintenance"
+            ],
+            "secteurs": [
+                "Industrie manufacturière",
+                "Sociétés de services liées à ces secteurs :\r\n\nmétallurgie (ArcelorMital, Vallourec)\nchimie-plasturgie (Rhodia, Arkema, Hutchinson)\ncéramiques (Saint Gobain, Cerrinov)\nindustrie verrière (Saint Gobain, Corning)\nconstruction mécanique (CMF, Siemens)\nélectrotechnique (Atmel, ST Microelectronics)\nénergétique (British Petroleum, Total, CEA)\nconstruction automobile (Peugeot, Renault, Valeo)\naéronautique (EADS, Eurocopter, Snecma; Airbus Safran)\nmatériels de transport (Alstom, Alweg)\nmatériaux de construction (Lafarge)\nmatériaux pour l'électronique et les nouvelles technologies (Soitec)\n\n",
+                "métallurgie (ArcelorMital, Vallourec)",
+                "chimie-plasturgie (Rhodia, Arkema, Hutchinson)",
+                "céramiques (Saint Gobain, Cerrinov)",
+                "industrie verrière (Saint Gobain, Corning)",
+                "construction mécanique (CMF, Siemens)",
+                "électrotechnique (Atmel, ST Microelectronics)",
+                "énergétique (British Petroleum, Total, CEA)",
+                "construction automobile (Peugeot, Renault, Valeo)",
+                "aéronautique (EADS, Eurocopter, Snecma; Airbus Safran)",
+                "matériels de transport (Alstom, Alweg)",
+                "matériaux de construction (Lafarge)",
+                "matériaux pour l'électronique et les nouvelles technologies (Soitec)"
+            ],
+            "url": "https://www.polytech.umontpellier.fr/formation/cycle-ingenieur/materiaux/debouches-professionnels"
+        },
+        {
+            "formation": "microelectronique-et-automatique",
+            "competences": [
+                "Laboratoire de Mécanique et Génie Civil (LMGC - UMR CNRS 5508) ;",
+                "Laboratoire d’Informatique, de Robotique et de Microélectronique de Montpellier (LIRMM – UMR CNRS 5506) ;",
+                "Institut Montpelliérain Alexander Grothendieck (IMAG - UMR CNRS 5149) ;",
+                "Institut d'Electronique et des Systèmes (IES)."
+            ],
+            "metiers": [
+                "Ingénieur R&D",
+                "Ingénieur d'études et de conseil",
+                "Ingénieur méthodes et industrialisation",
+                "Ingénieur exploitation et maintenance",
+                "Ingénieur qualité",
+                "Ingénieur technico-commercial",
+                "Ingénieur d'affaires",
+                "Chef de projet",
+                "Administrateur des systèmes d'information"
+            ],
+            "secteurs": [
+                "Sociétés d’ingénierie et de conseil",
+                "Industrie des semi-conducteurs",
+                "Secteurs des télécommunications et du multimédia",
+                "Secteur de la santé",
+                "Industrie des transports"
+            ],
+            "url": "https://www.polytech.umontpellier.fr/formation/cycle-ingenieur/microelectronique-et-automatique/debouches-professionnels-mea"
+        },
+        {
+            "formation": "mecanique-et-interactions",
+            "competences": [
+                "En 3e année au cours de l'été (1 mois minimum), un stage ou un job d'été dans une entreprise est proposé pour découvrir le monde professionnel.",
+                "En 4e année conclut par un stage d'élève-ingénieur, réalisé au cours de l'été (2 mois minimum) au sein d'une entreprise.",
+                "En 5e année après la réalisation du projet industriel, les élèves font un stage d'ingéniorat (5 mois minimum) dans une entreprise, en France ou à l'étranger."
+            ],
+            "metiers": [
+                "Ingénieur R&D",
+                "Bureau d'études",
+                "Chef de projet et/ ou produit",
+                "Ingénieur d’affaires",
+                "Créateur d'entreprise"
+            ],
+            "secteurs": [
+                "Industries mécaniques, énergie, transport, médicales et paramédicales.",
+                "Centres R&D, services mécaniques des grandes entreprises.",
+                "Développement, industrialisation et production.",
+                "Collectivités, organismes spécialises, activités d’expertise.",
+                "Enseignement et recherche publique."
+            ],
+            "url": "https://www.polytech.umontpellier.fr/formation/cycle-ingenieur/mecanique-et-interactions/debouches-professionnels"
+        },
+        {
+            "formation": "sciences-et-technologies-de-l-eau",
+            "competences": [
+                "Laboratoire MARBEC",
+                "Laboratoire HydroSciences (UMR 5569)",
+                "Institut Européen des Membranes (UMR 5635)",
+                "Institut de Mathématique et de Modélisation de Montpellier (UMR 5149)"
+            ],
+            "metiers": [
+                "Ingénieur en hydraulique",
+                "Chargé d'opérations Eau Potable / Assainissement",
+                "Ingénieur R&D",
+                "Ingénieur Environnement ou Eau et environnement",
+                "Ingénieur Production, exploitation eau potable / assainissement",
+                "Chef de projet exemple : \"cycle de l'eau\"",
+                "Responsable Exploitation en Eau et Assainissement",
+                "Chargé de mission \"rivière – inondation\""
+            ],
+            "secteurs": [
+                "Hydraulique urbaine : réseaux d’assainissement pluviaux (conception, diagnostic et expertise)",
+                "Hydraulique fluviale : étude de zones inondables",
+                "Définition des filières de traitement des eaux usées / eaux potables",
+                "Etudes de réaménagements de cours d’eau et plans de restauration",
+                "Chargé de projet en bureau d'étude (assainissement - eau potable - environnement- hydraulique)",
+                "Dimensionnement ouvrages hydrauliques d'assainissement routier",
+                "Élaboration de dossier loi sur l'eau",
+                "Réponse aux appels d’offres pour la conception et réalisation d'installations de traitement d'eaux usées et d'usines d'eau potable",
+                "Maitrise d’œuvre dans le domaine de l’assainissement des eaux usées et des eaux pluviales",
+                "Réhabilitation de réseau d'assainissement"
+            ],
+            "url": "https://www.polytech.umontpellier.fr/formation/cycle-ingenieur/sciences-et-technologies-de-l-eau/debouches-professionnels-ste"
+        },
+        {
+            "formation": "devops",
+            "competences": [
+                "a acquis des bases scientifiques solides en informatique de la conception en passant par le développement jusqu’à sa mise en exploitation ;",
+                "possède une bonne connaissance des technologies propres aux Clouds, tant au niveau infrastructure que des plateformes et des services ;",
+                "est capable de gérer les aspects techniques, humains et économiques d’un projet informatique ou d’une activité dans le domaine de l’informatique."
+            ],
+            "metiers": [
+                "Ingénieur Cloud, DevOps",
+                "Développeur Fullstack (Web, système, génie logiciel)",
+                "Concepteur et architecte des systèmes d’informations",
+                "Chef de projet informatique",
+                "Architecte logiciel, Cloud ou IT",
+                "Technical Leader",
+                "Directeur de projet Infra/Cloud",
+                "Directeur technique (CTO), directeur de l’exploitation, VP Engineering"
+            ],
+            "secteurs": [
+                "Start-up informatique",
+                "Editeurs de logiciels",
+                "Grandes entreprises",
+                "Entreprises de services numériques",
+                "Entreprises Cloud (hébergeurs informatiques...)"
+            ],
+            "url": "https://www.polytech.umontpellier.fr/formation/cycle-ingenieur/devops/debouches-professionnels-do"
+        },
+        {
+            "formation": "eau-et-genie-civil-apprentissage",
+            "competences": [
+                "A acquis de solides bases scientifiques (mathématiques, informatique) et une certification linguistique en anglais ;",
+                "Maîtrise les connaissances techniques des domaines de l’eau et du génie civil, indispensables pour concevoir, dimensionner, construire, exploiter et entretenir les grands ouvrages hydrauliques, au service de l’aménagement des villes et du territoire ;",
+                "Est capable de gérer les aspects humains et économiques d’un projet d’ouvrage hydraulique, depuis sa conception jusqu’à sa livraison, en respectant les contraintes environnementales et dans l’optique de développement durable ;",
+                "Est expert dans la supervision des projets de réalisation d’ouvrages hydrauliques, au cœur des villes et de l’aménagement du territoire."
+            ],
+            "metiers": [
+                "Ingénieur travaux / études et conception / exploitation",
+                "Responsable de maîtrise d’œuvre",
+                "Assistant à la maîtrise d’ouvrage",
+                "Chef de projet / agence / entreprise"
+            ],
+            "secteurs": [
+                "Entreprises d’ingénierie en génie civil et travaux hydrauliques",
+                "Entreprises de gestion et d’exploitation des services des eaux",
+                "Services techniques des agglomérations et des métropoles"
+            ],
+            "url": "https://www.polytech.umontpellier.fr/formation/cycle-ingenieur/eau-et-genie-civil-apprentissage/debouches-professionnels-egc"
+        },
+        {
+            "formation": "mecanique-structures-industrielles",
+            "competences": [
+                "Réaliser le pilotage et le suivi d’une affaire ;",
+                "Organiser, optimiser et piloter la production et les flux industriels ;",
+                "Garantir la sécurité des hommes et des moyens, le respect de l’environnement et des réglementations et la qualité des produits ;",
+                "Innover et industrialiser par la conception et le développement des produits et des procédés ;",
+                "Organiser et superviser les activités et les interventions de maintenance."
+            ],
+            "metiers": [
+                "Fabrication",
+                "Chargé d'affaires",
+                "Bureau d'études / méthodes",
+                "Inspection / contrôle"
+            ],
+            "secteurs": [
+                "Entreprises de maintenance, de production et de transformation des métaux (feuilles, tubes, profilés) pour l’industrie nucléaire, chimique, pétrochimique, agroalimentaire, pharmaceutique, les transports, le stockage, l’énergie ou l’environnement.",
+                "Bureaux d’études.",
+                "Organismes de contrôle."
+            ],
+            "url": "https://www.polytech.umontpellier.fr/formation/cycle-ingenieur/mecanique-structures-industrielles/debouches-professionnels-msi"
+        },
+        {
+            "formation": "systemes-embarques",
+            "competences": [
+                "a acquis des bases scientifiques solides dans les domaines de la physique, de l’électronique, de l’automatique et de l’informatique industrielle ;",
+                "possède une bonne connaissance des technologies propres aux systèmes embarqués actuels, tant au niveau matériel que logiciel, et maîtrise les outils de conception (CAO) associés ;",
+                "est capable de gérer les aspects techniques, humains et économiques d’un projet ou d’une activité dans les domaines des systèmes embarqués ;",
+                "est attentif aux problématiques de durabilité, de recyclage et d’écoconception."
+            ],
+            "metiers": [
+                "Ingénieur R&D en électronique et en informatique industrielle",
+                "Ingénieur d'études et de conseils",
+                "Chef de projet",
+                "Ingénieur d'exploitation et maintenance",
+                "Ingénieur Qualité",
+                "Administrateur systèmes d'information",
+                "Ingénieur technico-commercial",
+                "Ingénieur d'affaires"
+            ],
+            "secteurs": [
+                "Sociétés d'ingénierie électronique",
+                "Informatique et automatique",
+                "Etudes et conseils",
+                "Industries de l'électronique (Composants, Systèmes, production)",
+                "Réseaux et télécommunications",
+                "Industrie du multimédia",
+                "Equipementiers (secteurs : Automobile, Aéronautique, Spatial, Environnement, Santé, Agricole)"
+            ],
+            "url": "https://www.polytech.umontpellier.fr/formation/cycle-ingenieur/systemes-embarques/debouches-professionnels"
+        }
+    ],
+    "Polytech Annecy": [
+        {
+            "formation": "mecanique",
+            "competences": [
+                "Concevoir et industrialiser des systèmes mécatroniques ou des produits en matériaux composites.",
+                "Contrôler et améliorer les performances des procédés et des produits",
+                "Manager une équipe ou un projet en cohérence"
+            ],
+            "metiers": [
+                "Concepteur produit",
+                "Concepteur mécanique",
+                "Concepteur machines spéciales",
+                "Mécatronicien",
+                "Ingénieur en matériaux composites",
+                "Préparateur méthodes",
+                "Chargé / chef de projets industrialisation",
+                "Coordinateur de production",
+                "Coordinateur maintenance",
+                "Chargé / Chef de projet amélioration continue",
+                "Qualiticien",
+                "Métrologue – Responsable essais"
+            ],
+            "secteurs": [
+                "Industrie manufacturiere",
+                "Activité d’ingénierie",
+                "Activité de contrôle et d’analyse technique",
+                "Écoconstruction"
+            ],
+            "url": "https://www.univ-smb.fr/polytech/formation/mecanique/"
+        },
+        {
+            "formation": "ecologie-industrielle-et-territoriale",
+            "competences": [
+                "Être capable d’appréhender un écosystème industriel et urbain pour en apprécier les échanges (flux de matière et d’énergie) avec le milieu environnant",
+                "Gérer et conduire des projets de sa conception à la réalisation selon ses dimensions techniques économiques et humaines",
+                "Proposer une gestion sobre et efficace des ressources naturelles (air, eau énergie…)",
+                "Maitriser les impacts environnementaux",
+                "Développer des systèmes énergétiques efficaces intégrant les énergies renouvelables"
+            ],
+            "metiers": [
+                "Chef de projet, chargé de mission, chargé d’affaires, chargé d’études en écologie industrielle et territoriale, en environnement, en énergie",
+                "Ingénieur d’études",
+                "Ingénieur procédés et/ou énergie",
+                "Consultant en environnement industriel",
+                "Spécialiste en contrôle et diagnostic technique",
+                "Ingénieur recherche et développement",
+                "Ingénieur territorial"
+            ],
+            "secteurs": [
+                "Industrie : management environnemental, traitement et valorisation des déchets, gestion et traitement des eaux, prévention des nuisances et pollutions, optimisation des flux de matières et d’énergie, décarbonation",
+                "Sociétés de services énergétiques et environnementaux : énergies renouvelables, efficacité énergétique, gestion et valorisation des déchets, économie circulaire",
+                "Bureaux d’études et de conseil : conception de solutions d’écologie industrielle, audits environnementaux, études d’impact",
+                "Collectivités territoriales et institutions publiques : management environnemental, développement de politiques publiques et accompagnement des territoires, gestion des déchets et des eaux, prévention des nuisances"
+            ],
+            "url": "https://www.univ-smb.fr/polytech/formation/ecologie-industrielle-et-territoriale/"
+        },
+        {
+            "formation": "informatique-donnees-usages",
+            "competences": [
+                "Concevoir et mettre en œuvre des systèmes informatiques",
+                "Collecter et traiter des données numériques",
+                "Gérer les usages des données numériques en lien avec le client",
+                "Gérer un projet informatique"
+            ],
+            "metiers": [
+                "Architecte Systèmes dinformation",
+                "Data Scientist",
+                "Data Analyst & Business Intelligence",
+                "Data Architech",
+                "Gestionnaire d’informations et de données environnementales",
+                "Ingénieur Big data",
+                "Ingénieur Clouds et DevOps",
+                "Ingénieur Machine Learning",
+                "Ingénieur d’études Recherche et Développement"
+            ],
+            "secteurs": [
+                "Les sociétés de conseil : gestion des entreprises, systèmes d’information et organisation",
+                "Les sociétés de la grande distribution",
+                "Les banques et assurances",
+                "Les sociétés de services et d’ingénierie en informatique",
+                "Les grandes entreprises et administrations",
+                "Les hébergeurs et opérateurs télécoms"
+            ],
+            "url": "https://www.univ-smb.fr/polytech/formation/informatique-donnees-usages/"
+        },
+        {
+            "formation": "systemes-numeriques-instrumentation",
+            "competences": [
+                "Concevoir un système d’acquisition",
+                "Traiter des données issues de capteurs",
+                "Élaborer des structures de commande et de pilotage de systèmes automatisés",
+                "Développer un système informatique embarqué"
+            ],
+            "metiers": [
+                "Ingénieur électrotechnique",
+                "Ingénieur informatique industrielle",
+                "Ingénieur systèmes embarqués",
+                "Ingénieur automaticien / contrôle-commande-supervision",
+                "Ingénieur en technologies de l’information",
+                "Concepteur de banc d’instrumentation",
+                "Ingénieur performance industrielle",
+                "Architecte de système",
+                "Chef de projet qualité",
+                "Responsable R&D"
+            ],
+            "secteurs": [
+                "Secteur industriel : automobiles, aéronautiques, domotique",
+                "Secteurs santé : instrumentation biomédicale, analyse de données",
+                "Secteur environnement : gestion de ressources, surveillance de phénomènes naturels, gestion d’énergies renouvelables",
+                "Systèmes complexes responsables et économiquement viables"
+            ],
+            "url": "https://www.univ-smb.fr/polytech/formation/systemes-numeriques-instrumentation/"
+        }
+    ],
+    "Polytech Paris saclay": [
+        {
+            "formation": "electronique et Informatique pour l Embarque",
+            "competences": [
+                "Ingénierie des systèmes électroniques",
+                "Électronique, capteurs, calculateurs, actionneurs",
+                "Traitement du signal et des images",
+                "Automatique et systèmes robotisés",
+                "Informatique industrielle et systèmes embarqués",
+                "Intelligence Artificielle"
+            ],
+            "metiers": [
+                "Systèmes embarqués et mobiles",
+                "Informatique industrielle et temps réel",
+                "Réseaux et systèmes communicants",
+                "Traitement du signal et des images",
+                "Co-conception Logicielle/matérielle",
+                "Électronique et énergie",
+                "Contrôle/Commande",
+                "Mécatronique & systèmes numériques",
+                "Interfaces Électroniques",
+                "Application aux systèmes robotisés"
+            ],
+            "secteurs": [],
+            "url": "https://www.polytech.universite-paris-saclay.fr/formation/electronique-et-informatique-pour-lembarque"
+        },
+        {
+            "formation": "Informatique et Ingenierie Mathematique",
+            "competences": [
+                "Gestion et pilotage de projets informatiques",
+                "Modélisation, conception, développement et validation de logiciels",
+                "Développement d’applications spécialisées pour le Web",
+                "Conception d’interfaces avancées",
+                "Conception et optimisation de bases de données",
+                "Mise en œuvre d’algorithmes d’apprentissage automatique et d’ingénierie des données"
+            ],
+            "metiers": [
+                "Ingénierie du logiciel et architectures logicielles",
+                "Bases de données et ingénierie des données",
+                "Réseaux, Systèmes, Sécurité, Internet des objets",
+                "Optimisation et modélisation",
+                "Interfaces et multimédia, réalité virtuelle",
+                "Intelligence artificielle et apprentissage automatique"
+            ],
+            "secteurs": [],
+            "url": "https://www.polytech.universite-paris-saclay.fr/formation/informatique-et-ingenierie-mathematique"
+        },
+        {
+            "formation": "Materiaux : mecanique et energie",
+            "competences": [
+                "Mécanique des matériaux",
+                "Matériaux composites et Polymères",
+                "Matériaux pour le nucléaire",
+                "Développement durable",
+                "Matériaux fonctionnels",
+                "Méthode numérique par éléments finis",
+                "Métallurgie physique"
+            ],
+            "metiers": [
+                "Matériaux pour les structures mécaniques (métaux et alliages), métallurgie",
+                "Mise en forme, assemblage et durabilité des structures",
+                "Modélisation par la méthode des éléments finis, métallurgie assistée par ordinateur",
+                "Polymères et composites",
+                "Matériaux pour l’énergie (nucléaire, filière hydrogène) et le développement durable",
+                "Matériaux pour le photovoltaïque et les nanotechnologies"
+            ],
+            "secteurs": [],
+            "url": "https://www.polytech.universite-paris-saclay.fr/formation/materiaux-mecanique-et-energie"
+        },
+        {
+            "formation": "Photonique et systemes optroniques",
+            "competences": [
+                "Systèmes optiques",
+                "Traitement d’images",
+                "Télécommunications optiques",
+                "Optique, photonique pour le médical",
+                "Optique, photonique pour l’environnement"
+            ],
+            "metiers": [
+                "Lasers",
+                "Fibres optiques, télécoms",
+                "Photonique biomédicale",
+                "Imagerie médicale",
+                "Photonique pour l’environnement",
+                "Énergie solaire",
+                "Optique atmosphérique",
+                "Capteurs et systèmes optroniques"
+            ],
+            "secteurs": [],
+            "url": "https://www.polytech.universite-paris-saclay.fr/formation/photonique-et-systemes-optroniques"
+        }
+    ],
+    "Polytech Tours": [
+        {
+            "formation": "Electronique et genie electrique",
+            "competences": [
+                "généralistes dans l'étude, la conception et la réalisation de systèmes électriques et électroniques",
+                "Deux spécialisations sont proposées, à partir du second semestre de l'année 4, l'une en Electronique et Systèmes de l'Energie Electrique (ESEE) et l'autre porte sur les Systèmes Electroniques Embarques (SEE)",
+                "Pour la filière ESEE les champs d'application visés sont la conversion de l'énergie électrique et la mobilité électrique, et pour la filière SEE, les domaines d'application sont la santé et l'environnement",
+                "Compétences Maîtrise des méthodes et des outils transversaux à l’électronique et au génie électrique",
+                "Concevoir, concrétiser, tester et valider des solutions, des méthodes, produits, systèmes et services innovants",
+                "Appliquer et développer des concepts de la conversion et de la gestion de l’énergie électrique",
+                "Concevoir des systèmes de conversion de l'énergie électrique pour les réseaux électriques intelligents (smart",
+                "grid), pour la mobilité électrique, et tenir compte des enjeux en termes d'efficacité globale (durabilité, recyclabilité, fiabilité, performances énergétiques, coûts de fabrication) des technologies de composants utilisées",
+                "(filière ESEE) Concevoir des systèmes électroniques et numériques embarqués appliqués à la santé, l'environnement et plus largement aux objets connectés de demain (smart",
+                "industry, smart",
+                "city, smart",
+                "agri",
+                "Intégrer dans la conception les enjeux de consommation / autonomie énergétique des dispositifs et la fonction communication / transfert et exploitation des données",
+                "(filière SEE)"
+            ],
+            "metiers": [],
+            "secteurs": [
+                "Fabrication de composants et de systèmes électroniques Robotique (gestion de l’énergie / capteurs) Supervision, installation et configuration de systèmes de production d'énergie électrique Capteurs, Imagerie et systèmes de monitoring Étude et suivi de réseaux de distribution de l'énergie électrique pour la ville, le bâtiment et l'industrie Développer des solutions « Objets Connectés » Présence d'un lecteur vidéo"
+            ],
+            "url": "https://polytech.univ-tours.fr/version-francaise/navigation/cycle-ingenieur/electronique-et-genie-electrique"
+        },
+        {
+            "formation": "Genie de lamenagement et de lenvironnement",
+            "competences": [
+                "pluridisciplinaires permettant de mener des études, concevoir, réaliser et gérer des projets ou des équipements pour le développement durable des territoires et des villes, ainsi que pour la protection et la restauration des écosystèmes terrestres et aquatiques",
+                "L'élève",
+                "ingénieur ambitionne de relever les défis de la transition écologique, de la décarbonation des activités humaines pour des villes et territoires énergétiquement sobres, économes et respectueux de l'environnement et des espaces naturels terrestres et aquatiques",
+                "Compétences Etablir des diagnostics, analyses et documents de prospective qui prendront place dans l’élaboration des stratégies publiques territoriales : Schémas Régionaux d’Aménagement de Développement Durable et d’Egalité des Territoires, Schémas d’Aménagement et de Gestion des eaux, Chartes paysagères… Etablir des diagnostics, analyses et recommandations qui s’imposeront à tous les projets d’aménagement : Plan de Prévention des Risques d’Inondation, Schémas de Cohérence Territoriale… Réaliser des études pré",
+                "opérationnelles visant à définir les caractéristiques, la faisabilité et la durabilité des projets d’aménagement, d’infrastructures ou d’équipements",
+                "Concevoir des projets d’aménagement et d’équipements en proposant des solutions durables et innovantes optimisant les services écosystémiques et tenant compte de l’acceptabilité politique et sociétale",
+                "Conduire le processus de réalisation des projets d’aménagement en intégrant les phases de concertation avec les différentes parties prenantes, notamment citoyennes",
+                "Définir des plans de gestion et assurer le suivi, l’animation et l’évaluation des équipements et services territoriaux, urbains et environnementaux"
+            ],
+            "metiers": [],
+            "secteurs": [
+                "Planification du développement durable des territoires Urbanisme et développement des territoires Opérations foncières et d’habitat Transports urbains et mobilités Energies renouvelables Politique de la ville et renouvellement urbain Protection et restauration des écosystèmes aquatiques et terrestres Gestion de l’eau, des déchets, des risques technologiques et naturels"
+            ],
+            "url": "https://polytech.univ-tours.fr/version-francaise/navigation/cycle-ingenieur/genie-de-lamenagement-et-de-lenvironnement"
+        },
+        {
+            "formation": "Informatique",
+            "competences": [
+                "généralistes en informatique pour maîtriser les fondamentaux du domaine, en particulier les sciences de la décision, les techniques de développement logiciel, l’intelligence artificielle, les systèmes d’information ainsi que les systèmes d’exploitation et les réseaux",
+                "Compétences Maîtriser des outils mathématiques et méthodes statistiques, modéliser, analyser et résoudre des problèmes d’optimisation ou de décision",
+                "Manipuler et analyser des données complexes en vue d’extraire des informations pertinentes, valider des hypothèses et extrapoler",
+                "Piloter et gérer des projets, analyser et concevoir des systèmes informatiques complexes",
+                "Connaître et maitriser les différents aspects des systèmes d’information de leur conception à leur mise en œuvre, et leur intégration",
+                "Connaitre les systèmes de Business Intelligence, en particulier les problématiques liées à l’analyse de données, à l’informatique décisionnelle ou l‘intelligence artificielle",
+                "Maitriser les principaux aspects du développement logiciel",
+                ", l’utilisation d’environnements répartis et de haut niveau, en particulier de type framework",
+                "Savoir se positionner par rapport à un existant, réaliser une veille technologique ou un état de l’art, identifier des innovations potentielles, concevoir, concrétiser, tester et valider des solutions, des méthodes, produits",
+                "Mettre en place une démarche scientifique, faisant notamment intervenir des outils de simulation et/ou dispositif expérimentaux et/ou fondamentaux"
+            ],
+            "metiers": [],
+            "secteurs": [
+                "Entreprises du Secteur Numérique (ESN) Finances, Banques, Assurances Industrie automobile, aéronautique, navale, ferroviaire Recherche",
+                "développement scientifique Sociétés de conseil, bureaux d’études"
+            ],
+            "url": "https://polytech.univ-tours.fr/version-francaise/navigation/cycle-ingenieur/informatique"
+        },
+        {
+            "formation": "Mecanique et conception des systemes",
+            "competences": [
+                "permettant de concevoir, mettre en œuvre, modéliser des systèmes mécaniques complexes",
+                "valider des solutions, méthodes, produits ou systèmes innovants",
+                "réaliser le contrôle commande et l’intégration de systèmes",
+                "coordonner des actions et diriger une équipe",
+                "Compétences Capacité à savoir traiter des problèmes mêlant la mécanique et les systèmes industriels, à maîtriser des outils mathématiques et des méthodes statistiques",
+                "Capacité à modéliser, analyser et résoudre des problèmes ou systèmes mécaniques",
+                "Capacité à utiliser des outils de simulation numérique tels que la CAO, les éléments finis",
+                "Capacité à optimiser le cycle de vie d’un produit",
+                "Capacité à mettre en œuvre le contrôle, la commande et l’automatisation de systèmes mécaniques",
+                "Capacité à piloter et gérer des projets",
+                "Capacité à organiser, améliorer, superviser les procédés et outils de production (suivi, coordination, gestion des données, choix technologiques, contrôle qualité…)",
+                "Capacité à tester, valider des solutions, des méthodes, des produits ou des systèmes innovants ou déjà existants",
+                "Capacité à gérer le développement de produits ou de projets dans leur ensemble"
+            ],
+            "metiers": [],
+            "secteurs": [
+                "Transport (aéronautique, automobile, naval, ferroviaire, aérospatial) Production d’énergie Ingénierie",
+                "Bureaux d’études Recherche et développement Robotique Défense"
+            ],
+            "url": "https://polytech.univ-tours.fr/version-francaise/navigation/cycle-ingenieur/mecanique-et-conception-des-systemes"
+        },
+        {
+            "formation": "Informatique industrielle par apprentissage",
+            "competences": [
+                "généralistes en informatique, électronique, automatisme et des compétences approfondies en conception, développement, déploiement et gestion de dispositifs mobiles et embarqués tant sur le plan technique qu’organisationnel",
+                "Compétences Modéliser, concevoir, déployer, gérer des systèmes mêlant informatique, électronique et automatisme",
+                "Mobiliser des connaissances scientifiques pour l’optimisation ou aider à la prise de décision",
+                "Concevoir ou faire évoluer un dispositif communiquant sous contraintes environnementales et d’éco",
+                "conception",
+                "Développer des stratégies de test automatisés et valider des fonctionnalités (matérielle, logicielles ou mixtes) d’un dispositif innovant",
+                "Organiser et coordonner des actions au sein d’une équipe en tenant compte des contextes (technologique, économique, humain, environnemental, International…)",
+                "Maîtriser la production et l’exploitation de systèmes d’information"
+            ],
+            "metiers": [],
+            "secteurs": [
+                "Transport (automobile, ferroviaire, naval, aéronautique, aérospatial) Bureau d’étude et société de conseil, Ingénierie Finance, Banque et assurance Industrie pharmaceutique, agroalimentaire, chimique Energie Défense Télécommunication Bâtiment"
+            ],
+            "url": "https://polytech.univ-tours.fr/version-francaise/navigation/cycle-ingenieur/informatique-industrielle-par-apprentissage"
+        },
+        {
+            "formation": "Mecanique et materiaux",
+            "competences": [
+                "technologiques et scientifiques permettant de concevoir des produits et des procédés, en lien avec le comportement mécanique des matériaux sous différentes sollicitations",
+                "Compétences Connaitre et maîtriser les principes fondamentaux de la mécanique et des matériaux",
+                "Maîtriser des outils transversaux de l’ingénieur et leur application dans les activités professionnelles visées",
+                "Analyser et maîtriser les principaux procédés d’élaboration de différentes classes de matériaux Tester, analyser l’interaction procédés",
+                "matériaux et optimiser le cycle de vie d’un produit",
+                "Choisir un matériau et son procédé de mise en forme en fonction d’un cahier des charges Connaître et utiliser les outils numériques de la conception mécanique de la fabrication et de calcul (CAO, Optimisation topologique, FAO, éléments finis) Définir et contrôler les phases de réalisation de nouveaux produits avec des procédés de fabrication innovants (ex : fabrication additive) Connaitre les milieux professionnels en particulier ceux des secteurs d’activité visés en cohérence avec les contraintes sociétales"
+            ],
+            "metiers": [],
+            "secteurs": [
+                "Bureau Méthodes, Etudes",
+                "Recherches et Développement Mobilité",
+                "Transport Production industrielle (Agro, Pétrochimie…) Métallurgie",
+                "Plasturgie",
+                "Elastomère Défense Santé Energie, Environnement BTP",
+                "Infrastructure ANNÉE 3 Projet inter",
+                "spécialités Mathématiques et outils informatiques pour l'ingénieur Technologie mécanique Sciences et génie des matériaux Base du comportement mécanique Anglais et Sciences Humaines Economiques Juridiques et Sociales (SHEJS) Projet Industriel : alternance 27 semaines en entreprise / 25 semaines à l'école ANNÉE 4 Mathématiques et outils informatiques pour l'ingénieur Projet collectif Mécanique et conception Science des matériaux Comportement des matériaux de structures Anglais et Sciences Humaines Economiques Juridiques et Sociales (SHEJS) Anglais en immersion totale dans un pays anglophone Projet Industriel : alternance 27 semaines en entreprise / 25 semaines à l'école ANNÉE 5 Durabilité des matériaux Ingénierie des surfaces Modélisation et optimisation Écomécanique et calcul de structures Options :",
+                "Mise en forme des matériaux métalliques",
+                "Mise en forme des matériaux polymères Anglais et Sciences Humaines Economiques Juridiques et Sociales (SHEJS) Projet Recherche et Innovation Projet Industriel : alternance 29 semaines en entreprise / 22 semaines à l'école Plaquette Polytech Tours Contact Polytech Tours 64 avenue Jean Portalis 37200 Tours Tél",
+                "02 47 36 14 14 Contactez",
+                "nous Pratique Documentation Transfert de dossier Retrait de diplôme Plan d'accès Suivez",
+                "nous Facebook Instagram LinkedIn Youtube Mentions légales Plan du site Haut de page https://polytech",
+                "univ",
+                "tours",
+                "fr/version",
+                "francaise/navigation/cycle",
+                "ingenieur/mecanique",
+                "materiaux"
+            ],
+            "url": "https://polytech.univ-tours.fr/version-francaise/navigation/cycle-ingenieur/mecanique-et-materiaux"
+        }
+    ],
+    "Polytech Nice Sophia": [
+        {
+            "formation": "INGENIEUR BATIMENTS",
+            "competences": [
+                "Capables de répondre aux enjeux environnementaux et de la transition numérique, ils maîtrisent les concepts traditionnels des sciences et techniques du génie civil (Structure, thermique, énergétique…), les bases des systèmes intelligents au cœur des bâtiments de demain et les techniques et enjeux de la maquette numérique du bâtiment. Le programme d'ingénieur Bâtiments permet d'obtenir le label EUR-ACE \"Engineering master degree from Higher Education Institution in Civil engineering\" de grade Master international certifié par l'ENAEE.",
+                "En formation initiale sous statut apprenti (FISA) : En savoir Plus Déposer un dossier",
+                "En savoir Plus",
+                "Diriger une opération immobilière, étudier la faisabilité, programmer une opération. Connaître le contexte juridique d’une opération de construction",
+                "Compétences visées",
+                "En savoir Plus"
+            ],
+            "metiers": [
+                "Dimensionner la structure du bâtiment (béton, métallique, bois et mixtes - y compris résistance aux séismes), les équipements techniques (ventilation, chauffage, climatisation, acoustique et éclairage). Smart buildings : spécifier, dimensionner les fonctions intelligentes.",
+                "Débouchés professionnels",
+                "Insertion professionnelle"
+            ],
+            "secteurs": [],
+            "url": "https://polytech.univ-cotedazur.fr/formations/formations-ingenieurs/ingenieur-batiments"
+        },
+        {
+            "formation": "INGENIEUR ELECTRONIQUE ET SYSTEMES EMBARQUES",
+            "competences": [
+                "Intégrer la formation d'ingénieur Electronique et Systèmes Embarqués en statut étudiant ou apprenti vous offre des opportunités professionnelles en s’appuyant sur des compétences dans les domaines de l’électronique, de l’informatique embarquée, du logiciel, de l’automatique et des réseaux & télécommunications. Cette polyvalence permet à l’ingénieur d’intégrer les secteurs des systèmes embarqués, de l’électronique et des réseaux de télécommunications afin de travailler à la conception, au développement et à la réalisation de solutions innovantes, performantes et sûres. Les étudiants se spécialisent en fin de cursus dans l’une des mineures suivantes :",
+                "En formation initiale sous statut apprenti (FISA) : En savoir Plus Déposer un dossier",
+                "En savoir Plus"
+            ],
+            "metiers": [
+                "84% réussite au diplôme 94% insertion professionnelle à 2 mois 41 000€ salaire médian annuel en France",
+                "Intégrer la formation d'ingénieur Electronique et Systèmes Embarqués en statut étudiant ou apprenti vous offre des opportunités professionnelles en s’appuyant sur des compétences dans les domaines de l’électronique, de l’informatique embarquée, du logiciel, de l’automatique et des réseaux & télécommunications. Cette polyvalence permet à l’ingénieur d’intégrer les secteurs des systèmes embarqués, de l’électronique et des réseaux de télécommunications afin de travailler à la conception, au développement et à la réalisation de solutions innovantes, performantes et sûres. Les étudiants se spécialisent en fin de cursus dans l’une des mineures suivantes :",
+                "Insertion professionnelle"
+            ],
+            "secteurs": [],
+            "url": "https://polytech.univ-cotedazur.fr/formations/formations-ingenieurs/ingenieur-electronique"
+        },
+        {
+            "formation": "INGENIEUR GENIE BIOLOGIQUE",
+            "competences": [
+                "Toxicologie et Sécurité en Santé humaine et Environnement (TSSE) Recherche et développement préclinique et Toxicovigilance, Affaires réglementaires, Assurance qualité, Hygiène et Sécurité Environnement, Maîtrise et gestion des risques industriels et environnementaux, Marketing, Propriété industrielle."
+            ],
+            "metiers": [
+                "Débouchés professionnels",
+                "Insertion professionnelle"
+            ],
+            "secteurs": [],
+            "url": "https://polytech.univ-cotedazur.fr/formations/formations-ingenieurs/ingenieur-genie-biologique"
+        },
+        {
+            "formation": "INGENIEUR - GENIE DE L'EAU ET DE L'AMENAGEMENT PAYSAGER",
+            "competences": [
+                "Compétences visées"
+            ],
+            "metiers": [
+                "Débouchés professionnels"
+            ],
+            "secteurs": [],
+            "url": "https://polytech.univ-cotedazur.fr/formations/formations-ingenieurs/ingenieur-genie-de-leau-et-de-lamenagement"
+        },
+        {
+            "formation": "INGENIEUR INFORMATIQUE",
+            "competences": [
+                "la formation initiale sous statut apprenti (FISA) : l'élève-ingénieur apprend un métier tout en se formant, il développe une solide expérience sur le terrain et un savoir-faire théorique et pratique, parfois avec des projets à l'école, mais surtout par des périodes d'alternance au sein d'une entreprise, tout au long des 3 années du cycle ingénieur. déposer un dossier"
+            ],
+            "metiers": [
+                "mettre en situation professionnelle les élèves (projets- stages ou apprentissage)",
+                "la formation initiale sous statut étudiant (FISE) : il s'agit de la formation \"classique\" ; le temps de l'élève-ingénieur est exclusivement réservé à sa formation, avec des stages et des projets pour réaliser progressivement son intégration dans le monde professionnel ;",
+                "la formation initiale sous statut apprenti (FISA) : l'élève-ingénieur apprend un métier tout en se formant, il développe une solide expérience sur le terrain et un savoir-faire théorique et pratique, parfois avec des projets à l'école, mais surtout par des périodes d'alternance au sein d'une entreprise, tout au long des 3 années du cycle ingénieur. déposer un dossier",
+                "Débouchés professionnels",
+                "Insertion professionnelle"
+            ],
+            "secteurs": [],
+            "url": "https://polytech.univ-cotedazur.fr/formations/formations-ingenieurs/ingenieur-informatique"
+        },
+        {
+            "formation": "INGENIEUR MATHEMATIQUES APPLIQUEES ET MODELISATION",
+            "competences": [
+                "Les capacités de raisonnement, de conceptualisation et de créativité,",
+                "La maîtrise de la complexité et de l'incertain,"
+            ],
+            "metiers": [
+                "Les activités pédagogiques et le contenu de la formation sont développés d'une part en étroite collaboration avec les partenaires professionnels de Sophia-Antipolis, première technopole européenne, ainsi que les entreprises nationales et internationales, et d'autre part avec des équipes de recherche d'Inria (Institut national de recherche en sciences du numérique, tout proche) et du CNRS (notamment le LJAD et l'I3S, laboratoires d'Université Côte d'Azur).",
+                "Débouchés professionnels",
+                "Insertion professionnelle"
+            ],
+            "secteurs": [],
+            "url": "https://polytech.univ-cotedazur.fr/formations/formations-ingenieurs/ingenieur-mathematiques-appliquees-et-modelisation"
+        },
+        {
+            "formation": "INGENIEUR ROBOTIQUE AUTONOME",
+            "competences": [],
+            "metiers": [],
+            "secteurs": [],
+            "url": "https://polytech.univ-cotedazur.fr/formations/formations-ingenieurs/ingenieur-robotique"
+        }
+    ],
+    "Polytech Angers": [
+        {
+            "formation": "Bâtiments durables",
+            "competences": [
+                "Erreur lors de la récupération des compétences"
+            ],
+            "metiers": [],
+            "secteurs": [],
+            "url": "http://www.polytech-angers.fr/fr/trouver-une-formation/ingenieur-2/batiment-et-securite.html"
+        },
+        {
+            "formation": "Genie biologique et sante",
+            "competences": [
+                "Erreur lors de la récupération des compétences"
+            ],
+            "metiers": [],
+            "secteurs": [],
+            "url": "http://www.polytech-angers.fr/fr/trouver-une-formation/ingenieur-2/genie-biologique-et-sante.html"
+        },
+        {
+            "formation": "Qualite, innovation, fiabilite",
+            "competences": [
+                "Erreur lors de la récupération des compétences"
+            ],
+            "metiers": [],
+            "secteurs": [],
+            "url": "http://www.polytech-angers.fr/fr/trouver-une-formation/ingenieur-2/qualite-innovation-et-fiabilite.html"
+        },
+        {
+            "formation": "Systemes automatises et genie informatique",
+            "competences": [
+                "Erreur lors de la récupération des compétences"
+            ],
+            "metiers": [],
+            "secteurs": [],
+            "url": "http://www.polytech-angers.fr/fr/trouver-une-formation/ingenieur-2/systemes-automatises-et-genie-informatique.html"
+        }
+    ],
+    "Polytech Clermont": [
+        {
+            "formation": "Genie biologique",
+            "competences": [
+                "Erreur lors de la récupération des compétences"
+            ],
+            "metiers": [],
+            "secteurs": [],
+            "url": "https://polytech-clermont.fr/diplome-dingenieur-en-genie-biologique"
+        },
+        {
+            "formation": "Genie civil",
+            "competences": [
+                "Erreur lors de la récupération des compétences"
+            ],
+            "metiers": [],
+            "secteurs": [],
+            "url": "https://polytech-clermont.fr/diplome-dingenieur-en-genie-civil"
+        },
+        {
+            "formation": "Ingenierie Mathematique et Data Science",
+            "competences": [
+                "Erreur lors de la récupération des compétences"
+            ],
+            "metiers": [],
+            "secteurs": [],
+            "url": "https://polytech-clermont.fr/diplome-dingenieur-en-genie-mathematique-et-modelisation"
+        },
+        {
+            "formation": "Genie electrique",
+            "competences": [
+                "Erreur lors de la récupération des compétences"
+            ],
+            "metiers": [],
+            "secteurs": [],
+            "url": "https://polytech-clermont.fr/diplome-dingenieur-en-genie-electrique"
+        },
+        {
+            "formation": "Genie physique",
+            "competences": [
+                "Erreur lors de la récupération des compétences"
+            ],
+            "metiers": [],
+            "secteurs": [],
+            "url": "https://polytech-clermont.fr/diplome-dingenieur-en-genie-physique"
+        },
+        {
+            "formation": "Genie des systemes de production",
+            "competences": [
+                "Erreur lors de la récupération des compétences"
+            ],
+            "metiers": [],
+            "secteurs": [],
+            "url": "https://polytech-clermont.fr/diplome-dingenieur-en-genie-des-systemes-de-production"
+        }
+    ],
+    "Polytech Grenoble": [
+        {
+            "formation": "Electronique et Informatique Industrielle",
+            "competences": [
+                "Les thématiques abordées sont les suivantes : Électronique (HF et embarquée) Informatique Informatique industrielle & automatique Sciences pour l’ingénieur (mathématiques, électromagnétisme) Sciences économiques et humaines (anglais, communication, gestion des entreprises, droit, anglais, marketing, économie). Compétences visées Dans le cadre de cette co-formation, ces ingénieur.e.s intégrateurs.rices de systèmes bénéficient d’une réelle expérience en entreprise de près de 3 ans et de compétences en sciences et techniques, en économie et gestion, et d’une expérience des relations humaines en entreprise y compris dans un contexte international (mission professionnelle obligatoire à l’étranger de 10 semaines minimum). Compétences métier, ils/elles seront capables de : Élaborer une solution technique qui prend en compte les contraintes technologiques, économiques, humaines et environnementales Interfacer un ensemble de composants logiciels/matériels Développer un système complet intégrant capteurs, traitement de l'information, communication et actionneurs Assurer une veille technologique Compétences transversales, ils/elles seront capables de : Communiquer sur son projet scientifique et technique et sur les travaux réalisés Agir en professionnel"
+            ],
+            "metiers": [],
+            "secteurs": [],
+            "url": "https://www.polytech-grenoble.fr/menu-principal/formations/electronique-et-informatique-industrielle-apprentissage/",
+            "metiers_vises": "Élaborer une solution technique qui prend en compte les contraintes technologiques, économiques, humaines et environnementales Interfacer un ensemble de composants logiciels/matériels Développer un système complet intégrant capteurs, traitement de l'information, communication et actionneurs Assurer une veille technologique Compétences transversales, ils/elles seront capables de : Communiquer sur son projet scientifique et technique et sur les travaux réalisés Agir en professionnel"
+        },
+        {
+            "formation": "Geotechnique et Genie Civil",
+            "competences": [
+                "Les thématiques abordées sont les suivantes : Géotechnique - Génie civil - Géosciences - Géomécanique - Mécanique des sols et roches - Ouvrages souterrains - Géotechnique environnementale - Risques naturels - Amélioration et renforcement des sols - Génie parasismique - Gestion de projet. Définir un programme de reconnaissance géotechnique : étude de projet d’ouvrage, de risque naturel ou environnemental, et diagnostic géotechnique après sinistre. Evaluer les risques géologiques et géotechniques d’un site : identification des aléas naturels, des problèmes environnementaux et géotechniques, analyse du risque, et communication sur le risque. Concevoir des ouvrages : étude d'avant-projet et de projet, puis études d'exécution. Gérer un projet : gestion technique et administrative d'un projet d'ouvrage, et gestion de son projet professionnel. Suivre l'exécution des travaux géotechniques : suivi technique d’exécution, suivi administratif d'exécution, et travail d'équipe. Pérenniser les ouvrages et les sites : définition d’un programme de suivi, de surveillance et de remédiation des ouvrages et des sites, et gestion de la pathologie et de la sinistralité des ouvrages."
+            ],
+            "metiers": [],
+            "secteurs": [],
+            "url": "https://www.polytech-grenoble.fr/menu-principal/formations/geotechnique-et-genie-civil/",
+            "metiers_vises": "L’ingénieur·e en bureau d’études géotechnique analyse et dimensionne un ouvrage dans le respect des règlements européens et du développement durable. L’ingénieur·e travaux assure la gestion et la réalisation d'une opération dans le domaine des ouvrages géotechniques, des risques naturels et environnementaux. L’ingénieur·e conception assure les fonctions liées à la maîtrise d’œuvre ou à la maîtrise d’ouvrage. L’ingénieur·e en bureau de contrôle assure les fonctions liées à la bonne réalisation et au contrôle des ouvrages. L’ingénieur·e méthode en étude de prix réalise le chiffrage et la planification d'un projet d’ouvrage géotechnique."
+        },
+        {
+            "formation": "Informatique",
+            "competences": [
+                "Thématiques Logiciel (Informatique fondamentale, Algorithmique et programmation, Génie logiciel et Bases de données), Matériel (Architecture matérielle, Traitement du signal et communications, Informatique mobile, ubiquitaire et enfouie, Internet des choses), Systèmes et réseaux (Réseaux et protocoles, Intergiciels et systèmes répartis, Architecture de service Web et des services Cloud), Multimédia (Interactions homme-machine, Communication langagière, Recherche d’informations, Synthèse d’images) Compétences visées Gérer et piloter un projet logiciel Concevoir, développer et intégrer des briques logicielles Définir l'architecture d'un système et ses composants Faire évoluer et adapter un système existant Réaliser des systèmes intelligents (systèmes interactifs et de traitement de données complexes) Analyser et extraire une information structurée à partir du Web"
+            ],
+            "metiers": [],
+            "secteurs": [],
+            "url": "https://www.polytech-grenoble.fr/menu-principal/formations/informatique-ex-ricm-/",
+            "metiers_vises": "Ingénieur·e R&D Ingénieur·e d’études (ou calcul) Responsable technique Ingénieur·e système et réseaux Responsable d’application Ingénieur·e développeur Consultant·e"
+        },
+        {
+            "formation": "Informatique et Electronique des Systemes Embarques",
+            "competences": [
+                "Thématiques Informatique (Algorithmique et programmation, Microprocesseurs et microcontrôleurs, Architecture des processeurs, Bus et interfaces, Temps réel pour l’embarqué, Cybersécurité) Électronique (Électronique analogique et numérique, Conception analogique et logique, Capteurs, Composants électroniques intégrés, Communication pour l’internet des objets) Automatique (Asservissements, Commande numérique, Identification, Automatique discrète, Commande robuste) Traitement du signal et des images (Théorie du signal, Traitement numérique du signal, Filtrage linéaire optimal, Analyse d’images, Mouvement et Compression, Apprentissage automatique) Compétences visées Choisir une solution technique qui prend en compte les contraintes technologiques, économiques, humaines et environnementales Interfacer un ensemble de composants logiciels/matériels Développer un système complet intégrant capteurs, traitement de l’information, communication et actionneurs Intégrer un groupe et interagir dans l'entreprise Travailler dans une équipe multidisciplinaire et multiculturelle, être capable de l'animer Accompagner l'évolution des technologies"
+            ],
+            "metiers": [],
+            "secteurs": [],
+            "url": "https://www.polytech-grenoble.fr/menu-principal/formations/informatique-et-electronique-des-systemes-embarques/",
+            "metiers_vises": "Ingénieur·e en conception électronique, Ingénieur·e en test et validation, Ingénieur·e en systèmes embarqués, Ingénieur·e intégrateur de systèmes, Ingénieur·e en automatique, Ingénieur·e en développement informatique, Ingénieur·e data science (intelligence artificielle), Entrepreunariat et création de startup dans les métiers du numérique."
+        },
+        {
+            "formation": "Materiaux Innovations Transitions",
+            "competences": [
+                "Les objectifs de la formation ont été décrits selon 4 blocs de compétences métiers (fiche RNCP): Développer de nouveaux matériaux ou multi-matériaux innovants en prenant en compte les contraintes technologiques, économiques, humaines et environnementales. Organiser la chaine de production d’un produit depuis l’approvisionnement en matière première jusqu’à la fourniture du délivrable. Mettre en œuvre des méthodes d'analyse des matériaux ou des produits, analyser les résultats expérimentaux pour identifier les dysfonctionnements et s'adapter aux nouvelles conditions dans le respect des contraintes environnementales et sociétales. Prendre en charge l’aspect technique, économique, financier, juridique et sociétal concernant la gestion de projets intégrant le choix, le développement ou l’évolution de matériau. Ces 4 blocs de compétences incluent bien entendu les deux blocs de compétences transversales: S’intégrer dans une équipe, puis à terme animer et gérer une équipe dans le respect des contraintes environnementales et sociétales ; créer et développer un réseau et gérer des interfaces. Assimiler et transmettre les connaissances aussi bien oralement que par écrit dans un contexte international"
+            ],
+            "metiers": [],
+            "secteurs": [],
+            "url": "https://polytech.grenoble-inp.fr/fr/formations/materiaux-1#page-presentation",
+            "metiers_vises": "Les familles de métiers accessibles à partir de la formation sont les suivantes : Ingénieur·e Recherche et Développement : Ingénieur·e Process, Industrialisation et Production Ingénieur·e Qualité Ingénieur·e d’Affaires / Projets Poursuite d’étude Après l’obtention de leur diplôme d’ingénieur, les élèves peuvent : Poursuivre en thèse de doctorat sans pré requis supplémentaire que ce soit dans un laboratoire universitaire ou dans l’industrie par le biais du dispositif CIFRE. Réaliser une année d’étude supplémentaire avec l’IAE, graduate school of management de Grenoble INP – UGA, afin d’obtenir une double compétence de haut niveau en management. Chiffres clés promotion 2023"
+        },
+        {
+            "formation": "Gestion des risques - QHSE",
+            "competences": [
+                "Thématiques Sources de danger Maîtrise des risques Sûreté des systèmes Environnement et pollution Formation, Droit et réglementation Assurance de la qualité Management de la qualité, de la sécurité et de l’environnement Méthodes et outils d’analyse des risques Ambiances et conditions de travail Facteurs humains et fiabilité Sécurité et santé de l’homme Sécurité des installations Compétences visées Maîtriser les risques technologiques Gérer les risques des conditions de travail sur la santé Manager les risques environnementaux Savoir évaluer et modéliser les risques technologiques Assurer la sureté de fonctionnement et la fiabilité Analyser et prévenir des risques professionnels Évaluer les impacts environnementaux Élaborer, mettre en œuvre et piloter les procédés de maîtrise d'émission de polluants"
+            ],
+            "metiers": [],
+            "secteurs": [],
+            "url": "https://www.polytech-grenoble.fr/menu-principal/formations/gestion-des-risques/",
+            "metiers_vises": "Ingénieur·e sécurité Consultant·e Ingénieur·e conseil Responsable QHSE Ingénieur·e en sûreté de fonctionnement"
+        },
+        {
+            "formation": "Technologies de l Information pour la Sante",
+            "competences": [
+                "Durée des études : cycle ingénieur 3 ans (6 semestres) à Bac +2 (année 3, 4 et 5) Deux stages obligatoires ayant des applications dans le domaine de la santé, en France ou à l’étranger : En année 4 : stage d’application 16 semaines minimum En année 5 : stage d’ingénieur débutant 22 semaines minimum Deux stages d’immersion au Centre Hospitalier Universitaire de Grenoble Alpes (CHUGA) En année 3 : 2 semaines de découverte du monde de la santé, en contact avec les soignants En année 4 : 2 semaines d’immersion dans la pratique clinique, en contact avec les médecins. En plus des enseignements généraux (sciences pour l’ingénieur, anglais, sciences économie gestion humaines sociales : 30 % de la formation ), la formation TIS propose un contenu multidisciplinaire autour de 3 domaines : L’informatique et les systèmes d’information (34 % de la formation) : maîtrise d’œuvre et assistance à la maîtrise d’ouvrage en informatique et systèmes d’information. L’acquisition et le traitement de l’information de santé (24 % de la formation) : maîtrise d’œuvre et l’assistance à la maîtrise d’ouvrage en acquisition et traitement des données biomédicales La santé (12 % de la formation) : anatomie, physiologie, biologie mais aussi les systèmes de soins d’un point de vue organisationnel et réglementaire. De nombreuses interventions ciblées sont faites par des professionnels de la santé en partenariat avec le Centre Hospitalier Universitaire Grenoble Alpes (CHUGA). Retrouvez les maquettes et détails de chaque enseignements : Année 3 : Semestre 5 Semestre 6 Année 4 : Semestre 7 Semestre 8 Année 5 : Semestre 9 Semestre 10 Description générale Doubles diplômes possibles : Grenoble IAE G-INP-UGA Master 2 Management et Administration des Entreprises (MAE) Université Grenoble Alpes Master 2 AI4OneHealth (e-learning en anglais)"
+            ],
+            "metiers": [],
+            "secteurs": [],
+            "url": "https://www.polytech-grenoble.fr/menu-principal/formations/technologies-de-l-information-pour-la-sante/",
+            "metiers_vises": "Ingénieur de développement de systèmes d’information en Santé (Développement, Intégration, Interopérabilité, Paramétrage) Ingénieur consultant de systèmes d’information en Santé (consultant fonctionnel, assistance à la maîtrise d’ouvrage, consultant conduite du changement) Ingénieur dans les technologies médicales «Medtech » (Recherche & Développement de dispositifs médicaux numériques, assurance qualité et aspects réglementaires) Ingénieur de données de santé (data analyst, data management)"
+        }
+    ],
+    "Polytech Lyon": [
+        {
+            "formation": "Genie biomedical",
+            "competences": [
+                "Thématiques : physique et imagerie médicale; électronique et instrumentation; systèmes embarqués et nanotechnologies; informatique; signal; systèmes d'information et génie logiciel; techniques biomédicales et plateaux techniques; management du dispositif médical;",
+                "Spécialisation possible : possibilité d'effectuer un master 2 en double parcoursMISSetATRDM",
+                "Possibilité de contrats de professionnalisation en 5ème année",
+                "Structuration des écoles GBM :groupe formation ingénieur en GBM (GFI-GBM)",
+                "45 semaines de stages (minimum) dont au moins 7 semaines d'expérience en établissement hospitalier",
+                "Possibilité de double parcours pour les étudiants en audioprothèse et en pharmacie",
+                "Association des étudiants :APLEB",
+                "Durée moyenne de recherche du 1er emploi : 1 mois ; salaire médian : 36 000 € (statistiques promotion 2018)"
+            ],
+            "metiers": [],
+            "secteurs": [],
+            "url": "https://polytech.univ-lyon1.fr/formation/cycle-ingenieur/genie-biomedical/genie-biomedical-par-cursus-classique",
+            "metiers_vises": "Ingénieur de développement de systèmes d’information en Santé (Développement, Intégration, Interopérabilité, Paramétrage) Ingénieur consultant de systèmes d’information en Santé (consultant fonctionnel, assistance à la maîtrise d’ouvrage, consultant conduite du changement) Ingénieur dans les technologies médicales «Medtech » (Recherche & Développement de dispositifs médicaux numériques, assurance qualité et aspects réglementaires) Ingénieur de données de santé (data analyst, data management)"
+        },
+        {
+            "formation": "Informatique",
+            "competences": [
+                "Ouverture à la recherche :",
+                "Professionnalisation : en 5è année, 2 projets techniques permettant d'approfondir plusieurs compétences/connaissances :",
+                "Formation Possible par Apprentissage (en 3 ans)",
+                "Possibilité de double parcours en Master en dernière année Data sciences ou Intelligence Artficielle"
+            ],
+            "metiers": [],
+            "secteurs": [],
+            "url": "https://polytech.univ-lyon1.fr/formation/cycle-ingenieur/informatique/informatique-par-cursus-classique",
+            "metiers_vises": "Ingénieur de développement de systèmes d’information en Santé (Développement, Intégration, Interopérabilité, Paramétrage) Ingénieur consultant de systèmes d’information en Santé (consultant fonctionnel, assistance à la maîtrise d’ouvrage, consultant conduite du changement) Ingénieur dans les technologies médicales «Medtech » (Recherche & Développement de dispositifs médicaux numériques, assurance qualité et aspects réglementaires) Ingénieur de données de santé (data analyst, data management)"
+        },
+        {
+            "formation": "Materiaux et ingenierie des surfaces",
+            "competences": [
+                "Ingénieurs capables d’intervenir dans tous les aspects du cycle de vie des matériaux",
+                "Ingénieurs spécialisés dans l’analyse et le traitement de surfaces",
+                "Ingénieurs capables de s’insérer dans un large spectre de secteurs professionnels (santé, aéronautique, environnement,...)",
+                "Possibilité de double parcours en Master Recherche Matériaux",
+                "Possibilité de contrat de professionnalisation en 5eannée"
+            ],
+            "metiers": [],
+            "secteurs": [],
+            "url": "https://polytech.univ-lyon1.fr/formation/cycle-ingenieur/materiaux",
+            "metiers_vises": "Ingénieur de développement de systèmes d’information en Santé (Développement, Intégration, Interopérabilité, Paramétrage) Ingénieur consultant de systèmes d’information en Santé (consultant fonctionnel, assistance à la maîtrise d’ouvrage, consultant conduite du changement) Ingénieur dans les technologies médicales «Medtech » (Recherche & Développement de dispositifs médicaux numériques, assurance qualité et aspects réglementaires) Ingénieur de données de santé (data analyst, data management)"
+        },
+        {
+            "formation": "Mathematiques appliquees et modelisation",
+            "competences": [
+                "Large spectre des mathématiques appliquées s'appuyant sur la maîtrise de l'informatique scientifique notamment pour le Calcul Haute Perfomance, la Statistique Industrielle et la Data Science",
+                "4 diplômés en mathématiques appliquées sur 5 travaillent en entreprise (étude APEC - 2010).",
+                "Impact socio-économique majeur des Mathématiques : la valeur ajoutée s'élève à 15% du PIB français(source: cabinet de conseil en stratégie CMI)",
+                "Possibilité de double parcours en Master (M2 Maths en Action du master de mathématiques, M2 Biostatistique, Biomathématiques, Bioinformatique et Santé du master santé publique)",
+                "Possibilité de contrat de professionnalisation en 5e année"
+            ],
+            "metiers": [],
+            "secteurs": [],
+            "url": "https://polytech.univ-lyon1.fr/formation/cycle-ingenieur/maths-modelisation",
+            "metiers_vises": "Ingénieur de développement de systèmes d’information en Santé (Développement, Intégration, Interopérabilité, Paramétrage) Ingénieur consultant de systèmes d’information en Santé (consultant fonctionnel, assistance à la maîtrise d’ouvrage, consultant conduite du changement) Ingénieur dans les technologies médicales «Medtech » (Recherche & Développement de dispositifs médicaux numériques, assurance qualité et aspects réglementaires) Ingénieur de données de santé (data analyst, data management)"
+        },
+        {
+            "formation": "Mecanique",
+            "competences": [
+                "Formation de base dans les différents domaines de la Mécanique : du calcul de structures à la dynamique des écoulements, en passant par l'acoustique et les vibrations",
+                "La formation met l'accent sur la mise en oeuvre des méthodes numériques et la maîtrise des grands codes de calculs relatifs aux différents domaines de la mécanique en vue de modéliser et d'optimiser des systèmes mécanique complexes",
+                "Possibilité de spécialisation en double diplôme (Master 2 Recherche) : Mécanique (3 parcours possibles: Biomécanique, Mécanique des fluides et énergétique, Dynamique des systèmes et des structures).",
+                "Possibilité de double diplôme avec l'UQAC à Chicoutimi (Canada) et Cranfield (Grande Brétagne)",
+                "Possibilité de contrat de professionnalisation en 5ème année",
+                "Possibilité d'effectuer un stage ou un semestre d'étude à l'étranger"
+            ],
+            "metiers": [],
+            "secteurs": [],
+            "url": "https://polytech.univ-lyon1.fr/formation/cycle-ingenieur/mecanique",
+            "metiers_vises": "Ingénieur de développement de systèmes d’information en Santé (Développement, Intégration, Interopérabilité, Paramétrage) Ingénieur consultant de systèmes d’information en Santé (consultant fonctionnel, assistance à la maîtrise d’ouvrage, consultant conduite du changement) Ingénieur dans les technologies médicales «Medtech » (Recherche & Développement de dispositifs médicaux numériques, assurance qualité et aspects réglementaires) Ingénieur de données de santé (data analyst, data management)"
+        },
+        {
+            "formation": "Systemes industriels et robotique",
+            "competences": [
+                "Formation ayant lieu sur les 3 ans sur le site de Polytech Lyonà Roanne, dans des installations techniques très perfomantes",
+                "Possibilité d'alternance en dernière année du cycle ingénieur",
+                "Ingénieur capable de concevoir des systèmes électroniques et mécaniques pour l'industrie avec une spécialisation en robotique",
+                "Club Robotique très actif et impliqué dans des challenges internationaux"
+            ],
+            "metiers": [],
+            "secteurs": [],
+            "url": "https://polytech.univ-lyon1.fr/formation/cycle-ingenieur/systemes-industriels",
+            "metiers_vises": "Ingénieur de développement de systèmes d’information en Santé (Développement, Intégration, Interopérabilité, Paramétrage) Ingénieur consultant de systèmes d’information en Santé (consultant fonctionnel, assistance à la maîtrise d’ouvrage, consultant conduite du changement) Ingénieur dans les technologies médicales «Medtech » (Recherche & Développement de dispositifs médicaux numériques, assurance qualité et aspects réglementaires) Ingénieur de données de santé (data analyst, data management)"
+        }
+    ],
+    "Polytech Nancy": [
+        {
+            "formation": "Energie, Mecanique, Materiaux, Environnement",
+            "competences": [
+                "Concevoir et mettre en œuvre des systèmes complexes à dominantes mécanique des fluides, mécanique des solides ou énergétique, en tenant compte des contraintes technico-économiques et environnementales",
+                "Calculer, dimensionner et développer des produits manufacturés",
+                "Choisir les matériaux et les modes de fabrication les plus appropriés compte tenu des caractéristiques et des comportements mécaniques recherchés pour réaliser les produits conçus",
+                "Sélectionner ou mettre en œuvre les techniques de modélisation adaptées et utiliser les outils industriels correspondants de simulation numériques",
+                "Établir des documents techniques (feuilles de calculs, plans…) et réaliser un cahier des charges",
+                "Concevoir un projet et en maîtriser toutes les phases sur le plan technique et économique",
+                "Manager et animer une ou des équipes et collaborer avec différents services"
+            ],
+            "metiers": [],
+            "secteurs": [],
+            "url": "http://polytech-nancy.univ-lorraine.fr/fr/cycle-ingenieur/energie-mecanique-materiaux-environnement-fisa",
+            "metiers_vises": "Ingénieur de développement de systèmes d’information en Santé (Développement, Intégration, Interopérabilité, Paramétrage) Ingénieur consultant de systèmes d’information en Santé (consultant fonctionnel, assistance à la maîtrise d’ouvrage, consultant conduite du changement) Ingénieur dans les technologies médicales «Medtech » (Recherche & Développement de dispositifs médicaux numériques, assurance qualité et aspects réglementaires) Ingénieur de données de santé (data analyst, data management)"
+        },
+        {
+            "formation": "Management operationnel, Maintenanceet Maîtrise des risques",
+            "competences": [
+                "Excellentes qualités relationnelles, de communication et d’organisation",
+                "Aptitude à manager des équipes pluridisciplinaires de techniciens et d’ingénieurs pour innover et créer de la valeur dans l’entreprise",
+                "Évaluer la sûreté des systèmes, diagnostiquer leur dysfonctionnement et mettre en œuvre des mesures correctives ou préventives",
+                "Capacité à établir des documents techniques et à réaliser un cahier des charges",
+                "Capacité à concevoir un projet et à en maîtriser toutes les phases aussi bien techniques qu’économiques",
+                "Piloter les politiques de sécurité, environnement et risques industriels d’une entreprise"
+            ],
+            "metiers": [],
+            "secteurs": [],
+            "url": "http://polytech-nancy.univ-lorraine.fr/cycle-ingenieur/management-operationnel-maintenance-et-maitrise-des-risques",
+            "metiers_vises": "Ingénieur de développement de systèmes d’information en Santé (Développement, Intégration, Interopérabilité, Paramétrage) Ingénieur consultant de systèmes d’information en Santé (consultant fonctionnel, assistance à la maîtrise d’ouvrage, consultant conduite du changement) Ingénieur dans les technologies médicales «Medtech » (Recherche & Développement de dispositifs médicaux numériques, assurance qualité et aspects réglementaires) Ingénieur de données de santé (data analyst, data management)"
+        },
+        {
+            "formation": "Informatique, Automatique, Robotique, Reseaux",
+            "competences": [
+                "Concevoir et développer des projets d’application informatique",
+                "Concevoir et administrer l’architecture des infrastructures réseaux",
+                "Concevoir et mettre en œuvre des objets connectés (IoT)",
+                "Concevoir des stratégies de contrôle pour les systèmes automatiques",
+                "Concevoir et piloter des systèmes robotiques",
+                "Connaître les techniques de l’intelligence artificielle (IA)"
+            ],
+            "metiers": [],
+            "secteurs": [],
+            "url": "https://polytech-nancy.univ-lorraine.fr/fr/cycle-ingenieur/informatique-automatique-robotique-reseaux",
+            "metiers_vises": "Ingénieur de développement de systèmes d’information en Santé (Développement, Intégration, Interopérabilité, Paramétrage) Ingénieur consultant de systèmes d’information en Santé (consultant fonctionnel, assistance à la maîtrise d’ouvrage, consultant conduite du changement) Ingénieur dans les technologies médicales «Medtech » (Recherche & Développement de dispositifs médicaux numériques, assurance qualité et aspects réglementaires) Ingénieur de données de santé (data analyst, data management)"
+        }
+    ]
+}
