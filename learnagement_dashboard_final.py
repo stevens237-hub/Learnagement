@@ -163,14 +163,16 @@ df_main['type_lien'] = df_main['types_lien_list'].apply(lambda x: x[0] if len(x)
 
 # Ajouter des colonnes calculées utiles pour les visualisations
 
-# 1. Code compétence au format lisible (ex: "Réaliser", "Optimiser"...)
+# 1. Utiliser directement les codes de compétence (COMP_IDU1, COMP_IDU2, etc.)
+df_main['competence_label'] = df_main['code_competence']  # Garder les codes tels quels
+
+# Dictionnaire pour les mappings (même si on utilise les codes directement)
 competence_labels = {
-    'COMP_IDU1': 'Réaliser',
-    'COMP_IDU2': 'Optimiser', 
-    'COMP_IDU3': 'Administrer',
-    'COMP_IDU4': 'Gérer'
+    'COMP_IDU1': 'COMP_IDU1',
+    'COMP_IDU2': 'COMP_IDU2',
+    'COMP_IDU3': 'COMP_IDU3',
+    'COMP_IDU4': 'COMP_IDU4'
 }
-df_main['competence_label'] = df_main['code_competence'].map(competence_labels)
 
 # 2. Code niveau complet (ex: "Réaliser-N1", "Optimiser-N2")
 df_main['niveau_code'] = df_main['competence_label'] + '-N' + df_main['niveau'].astype(str)
@@ -242,10 +244,10 @@ COLORS = {
     
     # Couleurs par compétence (4 compétences BUT Informatique)
     "competences": {
-        "Réaliser": "#FF513F",      # Rouge - Concevoir des systèmes
-        "Optimiser": "#FFA03F",     # Orange - Traiter les données
-        "Administrer": "#DC3785",   # Rose - Gérer les usages
-        "Gérer": "#FFC83F",         # Jaune - Gérer un projet
+        "COMP_IDU1": "#FF513F",  # Rouge - Concevoir et mettre en œuvre des systèmes informatiques
+        "COMP_IDU2": "#FFA03F",  # Orange - Collecter et traiter des données numériques
+        "COMP_IDU3": "#3B82F6",  # Bleu - Gérer les usages des données numériques
+        "COMP_IDU4": "#10B981",  # Vert - Gérer un projet informatique
     },
     
     # Couleurs par niveau
@@ -636,7 +638,7 @@ def create_heatmap_for_module(module_id, df_pivot_module):
     module_name = module_names.get(module_id, f"Module {module_id}")
     fig.update_layout(
         title=dict(
-            text=f"{module_name} (Niveau {niveau_module}) - Apprentissages critiques<br><sub>Types: 3=Requis, 2=Recommandé, 1=Complémentaire</sub>",
+            text=f"{module_name} (Niveau {niveau_module}) - Apprentissages critiques",
             x=0.5,
             xanchor="center",
             font=dict(size=20, family="Inter, sans-serif"),
@@ -911,31 +913,31 @@ def viz3_competency_heatmap(filtered_df):
     comp_counts = composantes_avec_labels.groupby('competence_label').size().reset_index(name='count')
     comp_counts = comp_counts.sort_values('count', ascending=True)
     
-    # Créer le bar chart
+    # Créer le bar chart VERTICAL
     fig = go.Figure()
     
     colors = [get_competence_color(comp) for comp in comp_counts['competence_label']]
     
     fig.add_trace(go.Bar(
-        y=comp_counts['competence_label'],
-        x=comp_counts['count'],
-        orientation='h',
+        x=comp_counts['competence_label'],
+        y=comp_counts['count'],
         marker=dict(color=colors),
         text=comp_counts['count'],
         textposition='outside',
-        hovertemplate='<b>%{y}</b><br>Composantes: %{x}<extra></extra>',
+        hovertemplate='<b>%{x}</b><br>Composantes: %{y}<extra></extra>',
     ))
     
     fig.update_layout(
         title="Composantes Essentielles par Compétence",
-        xaxis_title="Nombre de Composantes Essentielles",
-        yaxis_title="",
-        height=400,
+        xaxis_title="Compétences",
+        yaxis_title="Nombre de Composantes Essentielles",
+        height=450,
         font=dict(size=12, family="Inter, sans-serif"),
         paper_bgcolor="white",
         plot_bgcolor="white",
         showlegend=False,
-        margin=dict(l=150, r=50, t=80, b=50),
+        margin=dict(l=60, r=50, t=80, b=100),
+        xaxis=dict(tickangle=-45),
     )
     
     return fig
@@ -1038,6 +1040,64 @@ def viz5_critical_competencies(filtered_df):
     return fig
 
 
+
+
+def create_competence_legend_card():
+    """Carte affichant la légende des codes de compétences"""
+    competences_info = [
+        {"code": "COMP_IDU1", "label": "Concevoir et mettre en œuvre des systèmes informatiques", "color": "#FF513F"},
+        {"code": "COMP_IDU2", "label": "Collecter et traiter des données numériques", "color": "#FFA03F"},
+        {"code": "COMP_IDU3", "label": "Gérer les usages des données numériques en lien avec le client", "color": "#3B82F6"},
+        {"code": "COMP_IDU4", "label": "Gérer un projet informatique", "color": "#10B981"},
+    ]
+    
+    legend_items = []
+    for comp in competences_info:
+        legend_items.append(
+            html.Div([
+                html.Div(
+                    style={
+                        "width": "20px",
+                        "height": "20px",
+                        "backgroundColor": comp["color"],
+                        "borderRadius": "4px",
+                        "marginRight": "12px",
+                        "flexShrink": "0"
+                    }
+                ),
+                html.Div([
+                    html.Span(comp["code"], style={"fontWeight": "600", "marginRight": "8px"}),
+                    html.Span(comp["label"], style={"color": "#6B7280", "fontSize": "14px"}),
+                ]),
+            ], style={
+                "display": "flex",
+                "alignItems": "center",
+                "marginBottom": "12px",
+                "padding": "8px",
+                "backgroundColor": "#F9FAFB",
+                "borderRadius": "6px",
+            })
+        )
+    
+    return html.Div([
+        html.Div([
+            html.H3(" Légende des Compétences", style={
+                "margin": "0",
+                "fontSize": "18px",
+                "fontWeight": "600",
+                "color": "#1F2937"
+            }),
+        ], style={"marginBottom": "20px"}),
+        html.Div(legend_items),
+    ], style={
+        "backgroundColor": "white",
+        "padding": "24px",
+        "borderRadius": "12px",
+        "boxShadow": "0 1px 3px rgba(0,0,0,0.1)",
+        "marginBottom": "30px",
+    })
+
+
 def viz7_statistics_dashboard(filtered_df):
     """Dashboard de statistiques (KPI cards)"""
     if filtered_df.empty:
@@ -1091,7 +1151,9 @@ def viz7_statistics_dashboard(filtered_df):
                     "gap": "20px",
                     "marginBottom": "30px"
                 }
-            )
+            ),
+            # Carte de légende des compétences
+            create_competence_legend_card(),
         ]
     )
 
@@ -1256,6 +1318,41 @@ app.layout = html.Div(
                             className="section",
                         ),
 
+                        # Analyses principales
+                        html.Div(
+                            [
+                                create_section_header(
+                                    "Analyses principales",
+                                    "Statistiques par compétences",
+                                ),
+                                # Ligne 1 : Les deux bar charts côte à côte
+                                html.Div(
+                                    [
+                                        html.Div(
+                                            [
+                                                dcc.Graph(
+                                                    id="viz5-critical",
+                                                    config={"displayModeBar": True, "displaylogo": False},
+                                                )
+                                            ],
+                                            className="card viz-card",
+                                        ),
+                                        html.Div(
+                                            [
+                                                dcc.Graph(
+                                                    id="viz3-heatmap",
+                                                    config={"displayModeBar": True, "displaylogo": False},
+                                                )
+                                            ],
+                                            className="card viz-card",
+                                        ),
+                                    ],
+                                    className="viz-grid-2",
+                                ),
+                            ],
+                            className="section",
+                        ),
+
                         # Mon parcours
                         html.Div(
                             [
@@ -1296,43 +1393,20 @@ app.layout = html.Div(
                             ],
                             className="section",
                         ),
-
-                        # Analyses principales
+                        # Autres analyses
                         html.Div(
                             [
                                 create_section_header(
-                                    "Analyses principales",
-                                    "Charge de travail et compétences clés",
+                                    "Autres analyses",
+                                    "Radar et flux",
                                 ),
+                                # Ligne 2 : Radar chart et graphe vide
                                 html.Div(
                                     [
                                         html.Div(
                                             [
                                                 dcc.Graph(
                                                     id="viz2-radar",
-                                                    config={"displayModeBar": True, "displaylogo": False},
-                                                )
-                                            ],
-                                            className="card viz-card",
-                                        ),
-                                        html.Div(
-                                            [
-                                                dcc.Graph(
-                                                    id="viz5-critical",
-                                                    config={"displayModeBar": True, "displaylogo": False},
-                                                )
-                                            ],
-                                            className="card viz-card",
-                                        ),
-                                    ],
-                                    className="viz-grid-2",
-                                ),
-                                html.Div(
-                                    [
-                                        html.Div(
-                                            [
-                                                dcc.Graph(
-                                                    id="viz3-heatmap",
                                                     config={"displayModeBar": True, "displaylogo": False},
                                                 )
                                             ],

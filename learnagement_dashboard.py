@@ -95,11 +95,26 @@ def load_learnagement_data(sql_file_path):
         columns=['id_apprentissage_critique', 'id_module', 'type_lien']
     )
     
-    return df_competences, df_niveaux, df_apprentissages, df_ac_modules
+    # Table 5: Modules (pour les noms et codes)
+    modules_data = parse_insert_values('MAQUETTE_module', sql_content)
+    df_modules = pd.DataFrame(
+        modules_data,
+        columns=['id_module', 'code_module', 'nom', 'ECTS', 'id_discipline', 'id_semestre', 
+                 'hCM', 'hTD', 'hTP', 'hTPTD', 'hPROJ', 'hPersonnelle', 'id_responsable', 'commentaire']
+    )
+    
+    # Table 6: Composantes essentielles
+    composantes_data = parse_insert_values('APC_composante_essentielle', sql_content)
+    df_composantes = pd.DataFrame(
+        composantes_data,
+        columns=['id_composante_essentielle', 'id_competence', 'libelle_composante_essentielle']
+    )
+    
+    return df_competences, df_niveaux, df_apprentissages, df_ac_modules, df_modules, df_composantes
 
 
 # Charger les données
-df_competences, df_niveaux, df_apprentissages, df_ac_modules = load_learnagement_data(
+df_competences, df_niveaux, df_apprentissages, df_ac_modules, df_modules, df_composantes = load_learnagement_data(
     "learnagement.sql"
 )
 
@@ -160,6 +175,22 @@ df_main['competence_label'] = df_main['code_competence'].map(competence_labels)
 # 2. Code niveau complet (ex: "Réaliser-N1", "Optimiser-N2")
 df_main['niveau_code'] = df_main['competence_label'] + '-N' + df_main['niveau'].astype(str)
 
+# Créer un dictionnaire pour les noms de modules
+module_names = {}
+for _, row in df_modules.iterrows():
+    module_id = row['id_module']
+    code = row['code_module'] if pd.notna(row['code_module']) else f"M{module_id}"
+    nom = row['nom'] if pd.notna(row['nom']) else "Module"
+    module_names[module_id] = f"{code} - {nom}"
+
+# Ajouter le module virtuel
+module_names[0] = "Non associé"
+module_names[0.0] = "Non associé"
+
+# Créer un dictionnaire inverse pour retrouver l'ID à partir du nom
+module_ids = {name: id_mod for id_mod, name in module_names.items()}
+
+
 # 3. Semestre approximatif basé sur le niveau (N1=S1-S2, N2=S3-S4, N3=S5-S6)
 semestre_map = {
     1: [1, 2],
@@ -179,7 +210,7 @@ mask_sans_module = df_main['id_module'].isna()
 nb_ac_sans_module = mask_sans_module.sum()
 
 if nb_ac_sans_module > 0:
-    print(f"\n⚠️  {nb_ac_sans_module} apprentissages critiques sans module associé détectés")
+    print(f"\n  {nb_ac_sans_module} apprentissages critiques sans module associé détectés")
     
     # Répartition par compétence
     ac_sans_module_comp = df_main[mask_sans_module].groupby('code_competence').size()
@@ -192,18 +223,7 @@ if nb_ac_sans_module > 0:
     df_main.loc[mask_sans_module, 'id_module'] = 0.0  # Module 0 = "Sans module"
     df_main.loc[mask_sans_module, 'type_lien'] = 'Non associé'
     
-    print(f"   ✅ Ces AC sont maintenant inclus avec le module virtuel '0 - Non associé'")
-
-# Statistiques finales après traitement
-print(f"\n📊 STATISTIQUES FINALES DES DONNÉES")
-print(f"   Total AC uniques: {df_main['id_apprentissage_critique'].nunique()}")
-print(f"   Total lignes (avec duplications module): {len(df_main)}")
-print(f"   AC avec module réel: {(df_main['id_module'] != 0).sum()}")
-print(f"   AC sans module: {(df_main['id_module'] == 0).sum()}")
-print(f"   Compétences: {df_main['code_competence'].nunique()}")
-print(f"   Modules uniques (hors virtuel): {df_main[df_main['id_module'] != 0]['id_module'].nunique()}")
-print()
-
+    print(f" Ces AC sont maintenant inclus avec le module virtuel '0 - Non associé'")
 
 # ═══════════════════════════════════════════════════════════════════
 #                      DESIGN SYSTEM COULEURS
@@ -499,11 +519,14 @@ def create_heatmap_for_niveau(niveau, df_pivot_niveau, ylegend=True):
             if col != comp:
                 df_comp.loc[:, col] = pd.NA
         
+        # Créer les noms de modules pour le hover
+        module_names_list = [module_names.get(mod, f"Module {mod}") for mod in df_used.index]
+        
         fig.add_trace(
             go.Heatmap(
                 z=df_comp.values,
                 x=df_used.columns,
-                y=df_used.index,
+                y=module_names_list,  # Utiliser les noms au lieu des IDs
                 zmin=z_min,
                 zmax=z_max,
                 colorscale=color_scale,
@@ -511,7 +534,7 @@ def create_heatmap_for_niveau(niveau, df_pivot_niveau, ylegend=True):
                 hoverongaps=False,
                 xgap=1,
                 ygap=1,
-                hovertemplate="<b>Module %{y}</b><br>%{x}<br>AC: %{z}<extra></extra>",
+                hovertemplate="<b>%{y}</b><br>%{x}<br>AC: %{z}<extra></extra>",
             )
         )
 
@@ -610,9 +633,10 @@ def create_heatmap_for_module(module_id, df_pivot_module):
     else:
         niveau_module = "?"
 
+    module_name = module_names.get(module_id, f"Module {module_id}")
     fig.update_layout(
         title=dict(
-            text=f"Module {module_id} (Niveau {niveau_module}) - Apprentissages critiques<br><sub>Types: 3=Requis, 2=Recommandé, 1=Complémentaire</sub>",
+            text=f"{module_name} (Niveau {niveau_module}) - Apprentissages critiques",
             x=0.5,
             xanchor="center",
             font=dict(size=20, family="Inter, sans-serif"),
@@ -859,7 +883,7 @@ def viz2_workload_radar(filtered_df):
 
 
 def viz3_competency_heatmap(filtered_df):
-    """Heatmap : Compétences × Niveaux"""
+    """Bar Chart : Composantes Essentielles par Compétence"""
     if filtered_df.empty:
         fig = go.Figure()
         fig.add_annotation(
@@ -869,39 +893,52 @@ def viz3_competency_heatmap(filtered_df):
         fig.update_layout(paper_bgcolor="white", height=500)
         return fig
     
-    # Créer la matrice compétence × niveau
-    matrix = filtered_df.pivot_table(
-        index='competence_label',
-        columns='niveau',
-        values='id_apprentissage_critique',
-        aggfunc='count',
-        fill_value=0
+    # Filtrer les composantes essentielles en fonction des compétences actives
+    competences_actives = filtered_df['id_competence'].unique()
+    composantes_filtrees = df_composantes[df_composantes['id_competence'].isin(competences_actives)]
+    
+    # Joindre avec df_competences pour avoir les labels
+    composantes_avec_labels = composantes_filtrees.merge(
+        df_competences[['id_competence', 'code_competence']], 
+        on='id_competence',
+        how='left'
     )
     
-    fig = go.Figure(data=go.Heatmap(
-        z=matrix.values,
-        x=[f"Niveau {c}" for c in matrix.columns],
-        y=matrix.index,
-        colorscale='Blues',
-        text=matrix.values,
-        texttemplate='%{text}',
-        textfont={"size": 12},
-        hovertemplate='<b>%{y}</b><br>%{x}<br>AC: %{z}<extra></extra>',
+    # Mapper les codes vers les labels
+    composantes_avec_labels['competence_label'] = composantes_avec_labels['code_competence'].map(competence_labels)
+    
+    # Compter par compétence
+    comp_counts = composantes_avec_labels.groupby('competence_label').size().reset_index(name='count')
+    comp_counts = comp_counts.sort_values('count', ascending=True)
+    
+    # Créer le bar chart
+    fig = go.Figure()
+    
+    colors = [get_competence_color(comp) for comp in comp_counts['competence_label']]
+    
+    fig.add_trace(go.Bar(
+        y=comp_counts['competence_label'],
+        x=comp_counts['count'],
+        orientation='h',
+        marker=dict(color=colors),
+        text=comp_counts['count'],
+        textposition='outside',
+        hovertemplate='<b>%{y}</b><br>Composantes: %{x}<extra></extra>',
     ))
     
     fig.update_layout(
-        title="Matrice Compétences × Niveaux",
-        xaxis_title="Niveaux",
-        yaxis_title="Compétences",
-        height=500,
+        title="Composantes Essentielles par Compétence",
+        xaxis_title="Nombre de Composantes Essentielles",
+        yaxis_title="",
+        height=400,
         font=dict(size=12, family="Inter, sans-serif"),
         paper_bgcolor="white",
         plot_bgcolor="white",
+        showlegend=False,
+        margin=dict(l=150, r=50, t=80, b=50),
     )
+    
     return fig
-
-
-def viz4_learning_flow(filtered_df):
     """Diagramme Sankey : Flux Compétences → Modules"""
     if filtered_df.empty:
         fig = go.Figure()
@@ -1013,6 +1050,12 @@ def viz7_statistics_dashboard(filtered_df):
     total_competences = filtered_df['competence_label'].nunique()
     requis_pct = (filtered_df['type_lien'] == 'Requis').sum() / total_ac * 100 if total_ac > 0 else 0
     
+    # Filtrer les composantes essentielles en fonction des compétences actives
+    competences_actives = filtered_df['id_competence'].unique()
+    composantes_filtrees = df_composantes[df_composantes['id_competence'].isin(competences_actives)]
+    total_composantes = len(composantes_filtrees)
+    nb_comp_avec_composantes = composantes_filtrees['id_competence'].nunique()
+    
     return html.Div(
         [
             html.Div(
@@ -1036,9 +1079,9 @@ def viz7_statistics_dashboard(filtered_df):
                         COLORS["warning"]
                     ),
                     create_stat_card(
-                        "AC Requis",
-                        f"{requis_pct:.0f}%",
-                        f"{(filtered_df['type_lien'] == 'Requis').sum()} AC obligatoires",
+                        "Composantes Essentielles",
+                        total_composantes,
+                        f"Réparties sur {nb_comp_avec_composantes} compétence(s)",
                         COLORS["danger"]
                     ),
                 ],
@@ -1052,8 +1095,6 @@ def viz7_statistics_dashboard(filtered_df):
         ]
     )
 
-
-def viz8_network_graph_pro(filtered_df):
     """Graphe de réseau 3D : Modules ↔ Compétences"""
     if filtered_df.empty:
         fig = go.Figure()
@@ -1312,85 +1353,6 @@ app.layout = html.Div(
                             ],
                             className="section",
                         ),
-
-                        # Relations et hiérarchies
-                        html.Div(
-                            [
-                                create_section_header(
-                                    "Relations et hiérarchies",
-                                    "Organisation globale et liens entre compétences",
-                                ),
-                                # Grid 2 colonnes professionnel
-                                html.Div(
-                                    [
-                                        # SUNBURST à gauche
-                                        html.Div(
-                                            [
-                                                html.Div(
-                                                    [
-                                                        html.Div(
-                                                            [
-                                                                html.Div("Vue hiérarchique", className="viz-header-title"),
-                                                                html.Div("Curriculum complet", className="viz-header-subtitle"),
-                                                            ],
-                                                            className="viz-header",
-                                                        ),
-                                                        html.Div(
-                                                            [
-                                                                dcc.Graph(
-                                                                    id="viz6-sunburst",
-                                                                    config={
-                                                                        "displayModeBar": True,
-                                                                        "displaylogo": False,
-                                                                    },
-                                                                )
-                                                            ],
-                                                            className="viz-content",
-                                                        ),
-                                                    ],
-                                                    className="card viz-card-pro",
-                                                )
-                                            ],
-                                            className="viz-col",
-                                        ),
-                                        
-                                        # RÉSEAU 3D à droite
-                                        html.Div(
-                                            [
-                                                html.Div(
-                                                    [
-                                                        html.Div(
-                                                            [
-                                                                html.Div("Réseau 3D de compétences", className="viz-header-title"),
-                                                                html.Div("Interconnexions", className="viz-header-subtitle"),
-                                                            ],
-                                                            className="viz-header",
-                                                        ),
-                                                        html.Div(
-                                                            [
-                                                                dcc.Graph(
-                                                                    id="viz8-network",
-                                                                    config={
-                                                                        "displayModeBar": True,
-                                                                        "displaylogo": False,
-                                                                        "modeBarButtonsToAdd": ['pan3d', 'zoom3d', 'orbitRotation', 'tableRotation'],
-                                                                    },
-                                                                )
-                                                            ],
-                                                            className="viz-content",
-                                                        ),
-                                                    ],
-                                                    className="card viz-card-pro",
-                                                )
-                                            ],
-                                            className="viz-col",
-                                        ),
-                                    ],
-                                    className="viz-grid-professional",
-                                ),
-                            ],
-                            className="section",
-                        ),
                     ],
                     className="app-main-content",
                 ),
@@ -1518,8 +1480,13 @@ def update_drilldown_viz1(
                     new_semester = clicked_semester
                     new_module = None
         elif current_level == "semester":
-            clicked_module = point.get("y")
-            if clicked_module is not None:
+            clicked_module_name = point.get("y")
+            if clicked_module_name is not None:
+                # Retrouver l'ID du module à partir du nom
+                clicked_module = module_ids.get(clicked_module_name, clicked_module_name)
+                # Si c'est toujours une string, essayer de parser
+                if isinstance(clicked_module, str) and clicked_module.replace('.', '').isdigit():
+                    clicked_module = float(clicked_module)
                 new_level = "module"
                 new_module = clicked_module
 
@@ -1564,12 +1531,13 @@ def update_drilldown_viz1(
         )
         if new_module in available_modules:
             fig = create_heatmap_for_module(new_module, df_pivot_module)
+            module_name = module_names.get(new_module, f"Module {int(new_module)}")
             breadcrumb = html.Div([
                 html.Span("Vue globale", className="breadcrumb-item"),
                 html.Span(" / ", className="breadcrumb-separator"),
                 html.Span(f"Semestre {new_semester}", className="breadcrumb-item"),
                 html.Span(" / ", className="breadcrumb-separator"),
-                html.Span(f"Module {int(new_module)}", className="breadcrumb-item active"),
+                html.Span(module_name, className="breadcrumb-item active"),
             ])
         else:
             fig = create_heatmap_for_global(df_pivot_global)
@@ -1625,11 +1593,6 @@ def update_viz3(filtered_data_json):
         filtered_df["niveau_code"] = filtered_df.apply(parse_competencies, axis=1)
     return viz3_competency_heatmap(filtered_df)
 
-@app.callback(
-    Output("viz4-flow", "figure"),
-    Input("filtered-data-store", "data"),
-)
-def update_viz4(filtered_data_json):
     df = df_main
     if filtered_data_json is None:
         filtered_df = df.copy()
@@ -1650,36 +1613,6 @@ def update_viz5(filtered_data_json):
         filtered_df = pd.read_json(StringIO(filtered_data_json), orient="split")
         filtered_df["niveau_code"] = filtered_df.apply(parse_competencies, axis=1)
     return viz5_critical_competencies(filtered_df)
-
-# @app.callback(
-#     Output("viz6-sunburst", "figure"),
-#     Input("filtered-data-store", "data"),
-# )
-# def update_viz6(filtered_data_json):
-#     df = df_main
-#     if filtered_data_json is None:
-#         filtered_df = df.copy()
-#     else:
-#         filtered_df = pd.read_json(StringIO(filtered_data_json), orient="split")
-#         filtered_df["niveau_code"] = filtered_df.apply(parse_competencies, axis=1)
-#     return create_sunburst_hierarchy(filtered_df)
-
-@app.callback(
-    Output("viz8-network", "figure"),
-    Input("filtered-data-store", "data"),
-)
-def update_viz8(filtered_data_json):
-    df = df_main
-    if filtered_data_json is None:
-        filtered_df = df
-    else:
-        filtered_df = pd.read_json(StringIO(filtered_data_json), orient="split")
-    filtered_df["niveau_code"] = filtered_df.apply(parse_competencies, axis=1)
-    return viz8_network_graph_pro(filtered_df)
-
-# ═══════════════════════════════════════════════════════════════════
-#                          LANCEMENT
-# ═══════════════════════════════════════════════════════════════════
 
 
 # ═══════════════════════════════════════════════════════════════════
