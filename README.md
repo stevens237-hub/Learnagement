@@ -21,6 +21,5 @@ pip install -r requirements.txt
 python learnagement\_dashboard\_final.py
 
 
-
-\#Lancer le projet sur http://10.7.182.100:8050
+\#Cliquer sur le deuxième lien de lancement
 
