@@ -4,7 +4,7 @@ python -m venv .venv
 
 
 
-\#Activer son environnement 
+\#Activer son environnement
 
 .venv\\Scripts\\activate
 
@@ -18,9 +18,9 @@ pip install -r requirements.txt
 
 \#Lancer le projet
 
-python learnagement\_dashboard.py
+python learnagement\_dashboard\_final.py
 
 
 
-\#Lancer le projet sur http://192.168.182.186:8050
+\#Lancer le projet sur http://10.7.182.100:8050
 
