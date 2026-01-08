@@ -777,7 +777,7 @@ def viz2_workload_radar(filtered_df):
         )
 
     fig.update_layout(
-        title="Charge de travail par niveau",
+        title="Couverture de travail par niveau",
         polar=dict(radialaxis=dict(visible=True)),
         height=650,
         font=dict(size=12, family="Inter, sans-serif"),
