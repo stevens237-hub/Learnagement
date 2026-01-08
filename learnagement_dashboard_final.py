@@ -750,19 +750,22 @@ def viz2_workload_radar(filtered_df):
         unique_comps = niv_data["competence_label"].nunique()
         total_ac = len(niv_data)
         modules_count = niv_data["id_module"].nunique()
-        requis_count = (niv_data["type_lien"] == "Requis").sum()
+        
+        # Compter les composantes essentielles pour les compétences de ce niveau
+        competences_du_niveau = niv_data["id_competence"].unique()
+        composantes_count = df_composantes[df_composantes["id_competence"].isin(competences_du_niveau)].shape[0]
 
         workload_data.append({
             "Niveau": f"N{niv}",
             "Compétences": unique_comps,
             "AC": total_ac,
             "Modules": modules_count,
-            "Requis": requis_count,
+            "Composantes": composantes_count,
         })
 
     wl_df = pd.DataFrame(workload_data)
     fig = go.Figure()
-    for metric in ["Compétences", "AC", "Modules", "Requis"]:
+    for metric in ["Compétences", "AC", "Modules", "Composantes"]:
         fig.add_trace(
             go.Scatterpolar(
                 r=wl_df[metric],
@@ -851,10 +854,6 @@ app.layout = html.Div(
                                 ),
                             ],
                             className="header-logo",
-                        ),
-                        html.Div(
-                            f"Mise à jour : {datetime.now().strftime('%d/%m/%Y')}",
-                            className="header-actions",
                         ),
                     ],
                     className="header-content",
@@ -1079,7 +1078,7 @@ app.layout = html.Div(
                                 html.Div(id="breadcrumb-nav", className="breadcrumb"),
                                 html.Div(
                                     [
-                                        html.Button("🏠 Vue globale", id="btn-global", n_clicks=0, className="btn btn-primary"),
+                                        html.Button(" Vue globale", id="btn-global", n_clicks=0, className="btn btn-primary"),
                                         html.Button("← Retour", id="btn-back", n_clicks=0, className="btn btn-outline"),
                                     ],
                                     className="drill-controls",
@@ -1100,22 +1099,13 @@ app.layout = html.Div(
                         # Autres analyses 
                         html.Div(
                             [
-                                create_section_header("Autres analyses", "Radar et flux"),
+                                create_section_header("Autres analyses", ""),
                                 html.Div(
                                     [
                                         html.Div(
                                             [
                                                 dcc.Graph(
                                                     id="viz2-radar",
-                                                    config={"displayModeBar": True, "displaylogo": False},
-                                                )
-                                            ],
-                                            className="card viz-card",
-                                        ),
-                                        html.Div(
-                                            [
-                                                dcc.Graph(
-                                                    id="viz4-flow",
                                                     config={"displayModeBar": True, "displaylogo": False},
                                                 )
                                             ],
